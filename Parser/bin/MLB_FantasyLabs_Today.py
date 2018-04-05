@@ -5,6 +5,9 @@ from BeautifulSoup  import BeautifulSoup
 import time
 from datetime import datetime, timedelta, date
 
+os.system('del C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\All_MLB_Batters_18_Today.txt')
+os.system('del C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\All_MLB_Pitchers_18_Today.txt')
+
 batters = open('C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\All_MLB_Batters_18_Today.txt','ab+')
 pitchers = open('C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\All_MLB_Pitchers_18_Today.txt','ab+')
 
@@ -19,7 +22,7 @@ def TextCleanup(text):
 	return text
 
 for each in range(1,2):
-	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,3,31)  - timedelta(days = each*1)).strftime("%m%d%Y"))
+	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,4,5)  - timedelta(days = each*1)).strftime("%m%d%Y"))
 	print casp
 	os.system(casp)
 
@@ -36,7 +39,7 @@ for each in range(1,2):
 	AllDivs = soup.findAll('div',{'class': re.compile(r'.*ag-row-level.*') })
 	print totalRows, day	
 	text= "insert into `mlb`.`batters` Values('" + day + ','
-	for i in range(0, (totalRows/2)-1):
+	for i in range(0, (totalRows/2)):
 		for elements in AllDivs[i].findAll('div'):
 			#print elements.text,"\n"
 			if len(elements.text)> 0:				
@@ -109,7 +112,7 @@ for each in range(1,2):
 	print totalRows, day
 	text= "insert into `mlb`.`pitchers` Values('" + day + ','
 
-	for i in range(0, (totalRows/2)-1):
+	for i in range(0, (totalRows/2)):
 		for elements in AllDivs[i].findAll('div'):
 			#print elements.text,"\n"
 			if len(elements.text )> 0:				

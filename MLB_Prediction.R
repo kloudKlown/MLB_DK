@@ -20,7 +20,7 @@ library(stringdist)
 library(varhandle)
 
 require(devtools)
-install_version("DiagrammeR", version = "0.9.0", repos = "http://cran.us.r-project.org")
+#install_version("DiagrammeR", version = "0.9.0", repos = "http://cran.us.r-project.org")
 require(DiagrammeR)
 
 library(mxnet)
@@ -30,10 +30,14 @@ localH2O <- h2o.init()
 Batters2016 = read.csv('Batters_16-17.csv')
 Pitchers2016 = read.csv('Pitchers_16-17.csv')
 
-Batters2018 = read.csv('Batters_17-18.csv')
 
+Batters2018 = read.csv('Batters_17-18.csv')
+Pitchers2018 = read.csv('Pitchers_17-18.csv')
+
+names(Batters2018)[names(Batters2018) %nin% names(Batters2016)]
 
 Batters2016 = rbind(Batters2018, Batters2016)
+Pitchers2016 = rbind(Pitchers2016, Pitchers2018)
 
 # Data Prep
 Batters2016[Batters2016 == 'nbsp;'] = 0
@@ -130,22 +134,50 @@ plot(spearmanP)
 abline(h=0.3)
 
 
+### Merge Batters info with Pitching data
+# All_16_Combined = merge(All_16, Dvoa, by = c("Player","Date","Opp"))
+
+Pitchers2016_Sub = Pitchers2016[,c("Date","Rating","Player","Salary","Team",
+                                   "WHIP","HR_9",
+                                   "SO_9","IP","QualS_S","SO_AB","wOBA","Pro",
+                                   "Bargain","KPred","ParkF","Runs","OppRuns","delta",
+                                   "ML","O_U","MLYear","RatingYear","Temp","WindSpd",
+                                   "Humidity","Precip","Cnt","Dist","EV","GB",
+                                   "LD","HH","Speed","S","Dist_delta","EV_delta","PCnt",
+                                   "Spd_delta","RecBBL","Air","CntYear","DistYear","EVYear",
+                                   "SpeedYear","SYear",
+                                   "PCntYear","AirYear","PPG","Change","plusMinusYear","Count",
+                                   "PPGYear","ChangeYear","CountYear")]
+
+
+# Pitchers2016_Sub = Pitchers2016_Sub[1:50,]
+names(Pitchers2016_Sub)[names(Pitchers2016_Sub) == 'Team'] <- 'Opp'
+
+Batters2016_Sub = Batters2016
+# Get first 3 chars
+Batters2016_Sub$Opp = substr(Batters2016_Sub$Opp, 0, 3)
+# remove white space
+Batters2016_Sub$Opp  = gsub('\\s+', '', Batters2016_Sub$Opp)
+
+Batters2016_Sub_Combined = merge(Batters2016_Sub, Pitchers2016_Sub, by = c("Date","Opp"))
+
+
 ## Perdiction
-DateCheck = "2018-03-30"
-Batters2016Cleaned = Batters2016[,c("Date","Rating","Player","Salary",
-                                    "Pos","Order","Team","Opp","Rating","Salary",
+DateCheck = "2018-04-03"
+Batters2016Cleaned = Batters2016_Sub_Combined[,c("Date","Rating.x","Player.x","Salary.x",
+                                    "Pos","Order","Team","Opp",
                               "ProjplusMinus","Pts_Sal","LowProjOwn",
-                              "Imp.Pts","Act.Pts","wOBA","wOBADiff","ISO",
-                              "ISODiff","SO_AB","HR_AB","SB_G","OppBP",
-                              "Pro","Bargain","ParkF","Runs",
-                              "OppRuns","ST","ML","O_U","MLPer","Rating_M",
-                              "Temp","WindSpd","Humidity","Precip","Cnt",
-                              "Dist","EV","FB","GB","LD","HH",
-                              "DistST","EVST","HHST","Rec.BBL","Air",
+                              "Imp.Pts","Act.Pts","wOBA.x","wOBADiff","ISO",
+                              "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
+                              "Pro.x","Bargain.x","ParkF.x","Runs.x",
+                              "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
+                              "Temp.x","WindSpd.x","Humidity.x","Precip.x","Cnt.x",
+                              "Dist.x","EV.x","FB","GB.x","LD.x","HH.x",
+                              "DistST","EVST","HHST","Rec.BBL","Air.x",
                               "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
-                              "PPG","Change","plusMinus",
-                              "Count","PPGYear","ChangeYear",
-                              "CountYear")]
+                              "PPG.x","Change.x","plusMinus",
+                              "Count.x","PPGYear.x","ChangeYear.x",
+                              "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")]
 Batters2016Cleaned = unique(Batters2016Cleaned)
 Batters2016Cleaned_Test = subset(Batters2016Cleaned, (as.Date(Batters2016Cleaned$Date) == as.Date(DateCheck)))
 Batters2016Cleaned_Train = subset(Batters2016Cleaned, as.Date(Batters2016Cleaned$Date) < as.Date(DateCheck))
@@ -166,7 +198,6 @@ for (each in 1:length(playerNames)){
   
   Batters2016Cleaned_Train = subset(Batters2016Cleaned, Batters2016Cleaned$Date != DateCheck
                               & Batters2016Cleaned$Player == as.character(playerNames[each]) )
-  Batters2016Cleaned_Train = subset(Batters2016Cleaned_Train, as.Date(Batters2016Cleaned_Train$Date) > "2017-07-05")
   print (playerNames[each])
   print (each)
   ### This ensures atleast 1 row of data exists for prediction
@@ -193,41 +224,43 @@ for (each in 1:length(playerNames)){
   }
   
   ######### Construct Models
-  indices = sample(1:nrow(Batters2016Cleaned_Train), 7, replace = FALSE)
+  indices = sample(1:nrow(Batters2016Cleaned_Train), 7, replace = TRUE)
   Batters2016Cleaned_Train_PlusMinusTrain = Batters2016Cleaned_Train[-indices, ]
   Batters2016Cleaned_Train_PlusMinusTest = Batters2016Cleaned_Train[indices, ]
   
   
   #########RF
-  rf = randomForest( Batters2016Cleaned_Train[,c("Rating","Salary","Order","FB","GB","LD","HH",
+  rf = randomForest( Batters2016Cleaned_Train[,c("Salary.x",
+                                                 "Pos","Order",
                                                  "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                 "Imp.Pts","wOBA","wOBADiff","ISO",
-                                                 "ISODiff","SO_AB","HR_AB","SB_G","OppBP",
-                                                 "Pro","Bargain","ParkF","Runs",
-                                                 "OppRuns","ST","ML","O_U","MLPer","Rating_M",
-                                                 "Temp","WindSpd","Humidity","Precip","Cnt",
-                                                 "Dist","EV",
-                                                 "DistST","EVST","HHST","Rec.BBL","Air",
+                                                 "Imp.Pts","wOBA.x","wOBADiff","ISO",
+                                                 "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
+                                                 "Pro.x","Bargain.x","ParkF.x","Runs.x",
+                                                 "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
+                                                 "Temp.x","WindSpd.x","Humidity.x","Precip.x","Cnt.x",
+                                                 "Dist.x","EV.x","FB","GB.x","LD.x","HH.x",
+                                                 "DistST","EVST","HHST","Rec.BBL","Air.x",
                                                  "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
-                                                 "PPG","Change","plusMinus",
-                                                 "Count","PPGYear","ChangeYear",
-                                                 "CountYear")], 
+                                                 "PPG.x","Change.x","plusMinus",
+                                                 "Count.x","PPGYear.x","ChangeYear.x",
+                                                 "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")], 
                      y = Batters2016Cleaned_Train[,c("Act.Pts")], ntree=300
                      ,type='regression')
   
-  rf_PlusMinus =  randomForest( Batters2016Cleaned_Train_PlusMinusTrain[,c("Rating","Salary","Order","FB","GB","LD","HH",
+  rf_PlusMinus =  randomForest( Batters2016Cleaned_Train_PlusMinusTrain[,c("Salary.x",
+                                                                           "Pos","Order",
                                                                            "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                                           "Imp.Pts","wOBA","wOBADiff","ISO",
-                                                                           "ISODiff","SO_AB","HR_AB","SB_G","OppBP",
-                                                                           "Pro","Bargain","ParkF","Runs",
-                                                                           "OppRuns","ST","ML","O_U","MLPer","Rating_M",
-                                                                           "Temp","WindSpd","Humidity","Precip","Cnt",
-                                                                           "Dist","EV",
-                                                                           "DistST","EVST","HHST","Rec.BBL","Air",
+                                                                           "Imp.Pts","wOBA.x","wOBADiff","ISO",
+                                                                           "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
+                                                                           "Pro.x","Bargain.x","ParkF.x","Runs.x",
+                                                                           "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
+                                                                           "Temp.x","WindSpd.x","Humidity.x","Precip.x","Cnt.x",
+                                                                           "Dist.x","EV.x","FB","GB.x","LD.x","HH.x",
+                                                                           "DistST","EVST","HHST","Rec.BBL","Air.x",
                                                                            "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
-                                                                           "PPG","Change","plusMinus",
-                                                                           "Count","PPGYear","ChangeYear",
-                                                                           "CountYear" )], 
+                                                                           "PPG.x","Change.x","plusMinus",
+                                                                           "Count.x","PPGYear.x","ChangeYear.x",
+                                                                           "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")], 
                                 y = Batters2016Cleaned_Train_PlusMinusTrain[,c("Act.Pts")], ntree=300
                                 ,type='regression')
   
@@ -302,35 +335,38 @@ for (each in 1:length(playerNames)){
   # 
   #################################Predictions
   
-  RFPred = predict( rf,  Batters2016Cleaned_Test[,c("Rating","Salary","Order","FB","GB","LD","HH",
+  RFPred = predict( rf,  Batters2016Cleaned_Test[,c("Salary.x",
+                                                    "Pos","Order",
                                                     "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                    "Imp.Pts","wOBA","wOBADiff","ISO",
-                                                    "ISODiff","SO_AB","HR_AB","SB_G","OppBP",
-                                                    "Pro","Bargain","ParkF","Runs",
-                                                    "OppRuns","ST","ML","O_U","MLPer","Rating_M",
-                                                    "Temp","WindSpd","Humidity","Precip","Cnt",
-                                                    "Dist","EV",
-                                                    "DistST","EVST","HHST","Rec.BBL","Air",
+                                                    "Imp.Pts","wOBA.x","wOBADiff","ISO",
+                                                    "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
+                                                    "Pro.x","Bargain.x","ParkF.x","Runs.x",
+                                                    "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
+                                                    "Temp.x","WindSpd.x","Humidity.x","Precip.x","Cnt.x",
+                                                    "Dist.x","EV.x","FB","GB.x","LD.x","HH.x",
+                                                    "DistST","EVST","HHST","Rec.BBL","Air.x",
                                                     "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
-                                                    "PPG","Change","plusMinus",
-                                                    "Count","PPGYear","ChangeYear",
-                                                    "CountYear"  )] 
+                                                    "PPG.x","Change.x","plusMinus",
+                                                    "Count.x","PPGYear.x","ChangeYear.x",
+                                                    "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")] 
                     ,type = c("response") )
   
   
-  RFPred_PlusMinus = predict( rf_PlusMinus,  Batters2016Cleaned_Train_PlusMinusTest[,c("Rating","Salary","Order","FB","GB","LD","HH",
-                                                                                       "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                                                       "Imp.Pts","wOBA","wOBADiff","ISO",
-                                                                                       "ISODiff","SO_AB","HR_AB","SB_G","OppBP",
-                                                                                       "Pro","Bargain","ParkF","Runs",
-                                                                                       "OppRuns","ST","ML","O_U","MLPer","Rating_M",
-                                                                                       "Temp","WindSpd","Humidity","Precip","Cnt",
-                                                                                       "Dist","EV",
-                                                                                       "DistST","EVST","HHST","Rec.BBL","Air",
-                                                                                       "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
-                                                                                       "PPG","Change","plusMinus",
-                                                                                       "Count","PPGYear","ChangeYear",
-                                                                                       "CountYear"  )] 
+  RFPred_PlusMinus = predict( rf_PlusMinus,  
+                              Batters2016Cleaned_Train_PlusMinusTest[,c("Salary.x",
+                                                                        "Pos","Order",
+                                                                        "ProjplusMinus","Pts_Sal","LowProjOwn",
+                                                                        "Imp.Pts","wOBA.x","wOBADiff","ISO",
+                                                                        "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
+                                                                        "Pro.x","Bargain.x","ParkF.x","Runs.x",
+                                                                        "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
+                                                                        "Temp.x","WindSpd.x","Humidity.x","Precip.x","Cnt.x",
+                                                                        "Dist.x","EV.x","FB","GB.x","LD.x","HH.x",
+                                                                        "DistST","EVST","HHST","Rec.BBL","Air.x",
+                                                                        "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
+                                                                        "PPG.x","Change.x","plusMinus",
+                                                                        "Count.x","PPGYear.x","ChangeYear.x",
+                                                                        "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")] 
                               ,type = c("response") )
   plusMinus = Batters2016Cleaned_Train_PlusMinusTest$`Act.Pts` - RFPred_PlusMinus
   RFPLUSMINUS_M = ceil(min(plusMinus))
@@ -379,11 +415,11 @@ for (each in 1:length(playerNames)){
   
   
   Prediction2 =  as.data.frame(RFPred)
-  Prediction2["RFPer"] = as.data.frame(  Prediction2["RFPred"]*100/(Batters2016Cleaned_Test$`Salary`) )
+  Prediction2["RFPer"] = as.data.frame(  Prediction2["RFPred"]*100/(Batters2016Cleaned_Test$`Salary.x`) )
   Prediction2["RF_M"] =  as.data.frame(RFPLUSMINUS_M)
   Prediction2["RF_P"] =  as.data.frame(RFPLUSMINUS_P)
   Prediction2["Actual"] =  as.data.frame(Batters2016Cleaned_Test$`Act.Pts`)
-  Prediction2["Salary"] =  as.data.frame(Batters2016Cleaned_Test$`Salary`)
+  Prediction2["Salary"] =  as.data.frame(Batters2016Cleaned_Test$`Salary.x`)
   Prediction2["Name"] =  as.data.frame(Batters2016Cleaned_Test$Player)
   Prediction2["HTeam"] =  as.data.frame(Batters2016Cleaned_Test$Team)
   Prediction2["Opp"] = as.data.frame(Batters2016Cleaned_Test$Opp)
@@ -410,7 +446,7 @@ for (each in 1:length(playerNames)){
 
 
 
-write.csv(ResultsBatters, file = "MLB_03_30_2018.csv")
+write.csv(ResultsBatters, file = "MLB_04_3_2018.csv")
 
 #### Pitchers
 Pitchers2016Cleaned = Pitchers2016[,c("Date","Rating","Player","Salary",
@@ -442,13 +478,12 @@ ResultsPitchers = data.frame( RFPred = numeric(), Xgb = numeric(), Name = factor
 
 
 ## Prediction
-for (each in 20:length(playerNames)){
+for (each in 19:length(playerNames)){
   Pitchers2016Cleaned_Test = subset(Pitchers2016Cleaned, Pitchers2016Cleaned$Date == DateCheck 
                                     & Pitchers2016Cleaned$Player == as.character(playerNames[each]) )
   
   Pitchers2016Cleaned_Train = subset(Pitchers2016Cleaned, Pitchers2016Cleaned$Date != DateCheck
                                      & Pitchers2016Cleaned$Player == as.character(playerNames[each]) )
-  Pitchers2016Cleaned_Train = subset(Pitchers2016Cleaned_Train, as.Date(Pitchers2016Cleaned_Train$Date) > "2017-07-05")
   print (playerNames[each])
   print (each)
   ### This ensures atleast 1 row of data exists for prediction
@@ -458,7 +493,7 @@ for (each in 20:length(playerNames)){
   
 
   ######### Construct Models
-  indices = sample(1:nrow(Pitchers2016Cleaned_Train), 7, replace = FALSE)
+  indices = sample(1:nrow(Pitchers2016Cleaned_Train), 7, replace = TRUE)
   Pitchers2016Cleaned_Train_PlusMinusTrain = Pitchers2016Cleaned_Train[-indices, ]
   Pitchers2016Cleaned_Train_PlusMinusTest = Pitchers2016Cleaned_Train[indices, ]
   

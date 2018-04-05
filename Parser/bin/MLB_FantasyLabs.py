@@ -18,8 +18,8 @@ def TextCleanup(text):
 	text = text.replace('$', '')
 	return text
 
-for each in range(1,3):
-	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,3,31)  - timedelta(days = each*1)).strftime("%m%d%Y"))
+for each in range(1,7):
+	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,4,3)  - timedelta(days = each*1)).strftime("%m%d%Y"))
 	print casp
 	os.system(casp)
 
@@ -105,7 +105,7 @@ for each in range(1,3):
 	print totalRows, day
 	text= "insert into `mlb`.`pitchers` Values('" + day + ','
 
-	for i in range(0, (totalRows/2)-1):
+	for i in range(0, (totalRows/2)):
 		for elements in AllDivs[i].findAll('div'):
 			#print elements.text,"\n"
 			if len(elements.text )> 0:				
