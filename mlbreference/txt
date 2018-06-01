@@ -1,0 +1,1440 @@
+
+<!DOCTYPE html>
+<html data-version="klecko-" data-root="/home/br/www" itemscope itemtype="https://schema.org/WebSite" lang="en" class="no-js" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+    <link rel="dns-prefetch" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171" />
+
+<!-- no:cookie fast load the css.           -->
+<link rel="preconnect" href="https://d2p3bygnnzw9w3.cloudfront.net" crossorigin>
+<link rel="preconnect" href="https://d3k2oh6evki4b7.cloudfront.net" crossorigin>
+ <style>html,body{margin:0;padding:0;font:14px/1.25 "Helvetica Neue",helvetica,arial,sans-serif;color:#000}body{position:relative;background:#c9cbcd;z-index:0;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}a img{border:0}ul,li,ol{margin:0;padding:0;list-style-type:none}table th,table td{border:0}iframe{max-width:100%}code{background:#eee}a,button,input,select,textarea,label,summary{touch-action:manipulation;-ms-touch-action:manipulation}::selection{background:#ff0;text-shadow:none}html.no-js .hasmore,html.no-js .js,html.js .no-js,html.no-js button,html.is_build .hide_build,html.is_dev .hide_dev,html.is_live .hide_live{display:none!important}.js-select{visibility:hidden}a[href]{color:#34d}a[href]:visited{color:#848}a[href]:hover{color:#5E44B3}a[href]:active{color:#b12}a[href^="tel:"]:before{content:"\260E";display:inline-block;margin-right:0}a[href^="mailto:"]:before{content:"\2709";display:inline-block;margin-right:0}.icon_group a[href^="tel:"]:before,.icon_group a[href^="mailto:"]:before{content:""}.screen_only{display:initial}.user_logged_in .not_logged_in,.logged_in,.sr_cpi_control,.print_only{display:none}#perflog,#modernizr,.user_logged_in .logged_in{display:block}h2{color:#000;margin-bottom:5px;font-size:1.5em}img.right{float:right;margin:0 0 5px 5px}img.left{float:left;margin:0 15px 15px 0}sup{font-size:.75em;position:relative;top:-0.4em;vertical-align:baseline}#wrap{width:100%;background:#fff;position:relative}#wrap>div,#wrap>ul{width:100%;position:relative;clear:both}.hidden,#content .hidden,.gutterad,.more,.print_only,#warnings.hide,#nag_devs{display:none}#inner_nav.hidden{visibility:hidden}.float_wrap{overflow:hidden}#header{overflow:visible;background:#efedee;border-bottom:3px solid #cf2036}#header img{height:25px;float:left;padding:8px 0 8px 2%;max-width:71%;max-width:calc(95% - 80px)}#header #nav_trigger{display:block;cursor:pointer;float:right;padding:7px 2% 7px 1%;height:30px}#header #nav_trigger a{color:#cf2036;font-size:20px;font-weight:bold;text-decoration:none;display:inline-block}#header #nav_trigger a:before{color:#cf2036;content:"\2630 ";font-weight:normal}#header #nav{display:none;clear:both;width:88%;background:#fff;padding:7px 6% 0;border-bottom:3px solid #cf2036;border-top:3px solid #cf2036;overflow:hidden;font-size:12px}#header #nav .usertools{font-weight:bold;font-size:12px;margin:0 0 4px;padding:7px 6% 0;border-top:1px solid #c9cbcd}#header #nav .breadcrumbs{font-size:12px;padding:7px 6%;border-top:1px solid #c9cbcd}#header #main_nav{color:#454041;overflow:hidden}#header #main_nav>li{border-top:1px solid #c9cbcd}#header #main_nav>li:first-child{border-top:none}#header #main_nav>li>a{display:block;padding:8px 0 8px 6%;font-weight:bold;text-decoration:none;font-size:1.4em}html.no-touchevents #header #main_nav>li:active{background-color:#454041}#header #main_nav>li:active>a{color:#efedee}#header #main_nav li.current{background-color:#cf2036}#header #main_nav li.current>a{color:#efedee}#header #nav_trigger.open{background:#cf2036}#header #nav_trigger.open a{color:#fff}#header #nav_trigger.open a:before{color:#fff}#header #nav.open{display:block}#header #main_nav .nm{display:none}#header .social{margin:15px 0;display:none}#header.open_search{margin-bottom:50px}#header #subnav{display:none}#header .search{margin-top:10px;clear:both;padding:0 2% 6px}#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}.search input[type="search"]{padding:4px 5px;border:#747678 1px solid;width:73%;margin-right:2%}.search input[type="search"].prefilled{background-color:#ffa}.search input[type="submit"]{float:right;background:#cf2036;color:white;border:1px solid #747678;padding:0;border-radius:5px;height:24px;width:25%;width:calc(25% 0 2px)}.search input[type="submit"]:hover{text-decoration:underline}.search input[type="submit"]:active{background-color:#454041}.search .ac-outline{width:73%;margin-right:2%}.search .ac-outline input[type="search"]{width:100%;margin:0}@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width:400px){#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}}#wrap>#info{width:96%;margin:0 auto;padding-bottom:10px}#info .opener,#info .opener:active,#inner_nav div .opener{color:#900;font-weight:bold;clear:both;width:100%;text-align:left;padding:10px 0;border:none;background:transparent}#info button#meta_more_button{border:1px solid #c9cbcd;background-color:#efedee;padding:.5em;margin:.5em 0;text-align:center;width:100%;max-width:400px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:none}#info button#meta_more_button.show{display:inline-block}#info #meta p:nth-child(n+6){display:none}#info.open #meta p:nth-child(n+6){display:block}#info #meta .opener:nth-child(-n+6){display:none}#info #meta{margin-top:10px;overflow:hidden}#info #meta p{font-size:.93em;margin:3px 0}#info #meta>div{}#info #meta>div.media-item{float:right;margin-left:10px;width:70px}#info #meta>div.media-item.country{width:100px;height:75px}#info #meta>div.media-item.country .flag{width:100%;height:100%;background-size:100%}#info .media-item img{width:100%;height:auto;border:1px solid black;box-sizing:border-box}#info .media-item img.additional{display:none}#info .media-item.logo img,.bbr #info .media-item img{border:none}#info #meta .media-item p{margin:3px 0;font-size:.785em;font-style:italic}#info #meta .media-item.loader p{visibility:hidden}#info h1{margin-top:0;margin-bottom:5px;line-height:1.1em;font-size:1.5em}#info h1+p{margin-top:5px}#info #bling{margin:6px 1% 6px 0;color:#fff;height:24px;overflow:hidden;float:left;width:88%;display:grid;grid-gap:5px 4px;grid-template-columns:repeat(auto-fill,minmax(100px,1fr))}#info.teams #bling{width:100%}#info #bling li{padding:4px 1.25%;text-align:center;position:relative;height:15px;background:#82081b;font-size:.85em;word-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:5px;display:inline-block;width:27%;margin-bottom:5px}#info.teams #bling li{width:45%}#bling li a{color:inherit}#info #bling li.bling_hof{background-color:#ffdb1c;color:#000}#info #bling li.bling_all_star{background-color:#c9cbcd;color:#454041}#info #bling li.bling_hof,#info.teams #bling li.bling_all_star,#info.teams #bling li.bling_champ{grid-column-end:span 2}#info.open #bling{height:auto;width:100%;margin-right:0;float:none;overflow:visible}@supports(display:grid){#info #bling li,#info.open #bling li,#info.teams #bling li{width:auto!important;margin-bottom:0!important}}.uni_holder{margin:3px 0;float:none;width:100%;position:relative}#info .uni_holder{float:left}#bling+.uni_holder{width:11%}#info.open #bling+.uni_holder{width:100%;overflow:visible;float:none;margin-bottom:5px}.uni_holder>a{display:inline-block;position:relative;height:auto;width:28px;margin-bottom:3px;margin-right:.3em;text-decoration:none;overflow:hidden}.uni_holder svg{height:28px;width:28px}.uni_holder svg.jersey{height:35px}.uni_holder svg text{font-size:1.8em;font-weight:bold}.uni_holder svg text.string{font-size:1.3em}.uni_holder svg.jersey text{font-size:1.5em}.uni_holder svg.jersey text.string{font-size:.7em}#info #bling+.uni_holder>a{display:none}#info .uni_holder>a.default,#info.open .uni_holder>a,#info #bling+.uni_holder>a.default{display:inline-block}#info .uni_holder .counter{display:none;position:absolute;height:14px;width:18px;border-radius:50%;color:#fff;font-weight:bold;font-size:10px;top:-4px;left:18px;background:black;text-align:center;border:none;padding:4px 0 0;cursor:pointer;text-overflow:inherit}#info .uni_holder .counter:after{content:'';padding:0;font-size:0}#info #bling+.uni_holder .counter{display:block}#info.open #bling+.uni_holder .counter{display:none}#info.open #bling+.uni_holder>a{display:inline-block}#info.open .uni_holder>a{display:inline-block;width:33px}#info.open .uni_holder svg{height:33px;width:33px}#info.open .uni_holder svg.jersey{height:41px}.stats_pullout{overflow:hidden;text-align:center;width:96%;margin:0 auto 15px 0;padding-top:6px}.stats_pullout>div{float:left}.stats_pullout>div:first-child{text-align:left}.stats_pullout>div.p2,.stats_pullout>div.p3{display:none}.stats_pullout>div>div{float:left;margin-left:15px}.stats_pullout>div>div.p2{display:none}.stats_pullout>div:first-child>div{margin-left:0}.stats_pullout h4{color:#900;margin:2px 0;font-size:.785714286em;text-align:center}.stats_pullout p{margin:2px 0;font-size:1.1em}@media screen and (min-width:520px){.stats_pullout>div.p2{display:block}}@media screen and (min-width:600px){.stats_pullout>div{border-left:1px solid #c9cbcd;margin-left:10px}.stats_pullout>div:first-child{border-left:none;margin-left:0}}@media screen and (min-width:736px){.stats_pullout>div.p2{display:none}}@media screen and (min-width:800px){.stats_pullout>div.p2{display:block}.stats_pullout>div>div.p2{display:block}}.opener{cursor:pointer;position:relative;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.opener:after{content:"\25BC";font-size:.75em;padding-left:5px;display:inline-block;text-decoration:none}.opener.open:after{content:"\25B2"}.toggler.open{}.toggleable{display:none}.toggleable.open{display:block}tr.toggleable.open{display:table-row}table.toggleable.open{display:table}span.toggleable.open{display:inline}.hoverer{cursor:pointer}.hoverer:after{content:"\25BC";position:absolute;top:7px;right:0}html.no-touchevents .hoverer:hover:after{content:"\25B2"}ul.news{padding:0 10px}ul.news li{margin-bottom:3px}.section_content ul.news_stories>li{margin:5px 10px 0 0;float:none}ul.news_stories.more{display:none}ul.news_stories.more.open{display:block}.bullets{padding-left:20px}.bullets>li{margin-left:0;margin-bottom:6px}ul.bullets>li{list-style-type:disc}ol.bullets>li{list-style-type:decimal}.bullets-inline>li{display:inline-block;margin-right:9px;margin-bottom:10px}.bullets-inline>li:after{content:"\00B7";margin-left:9px}.bullets-inline>li:last-child:after{content:"";margin-left:0}.bullets-inline>li.logged_in{display:none}.user_logged_in .bullets-inline>li.logged_in{display:inline-block}.desc{font-style:italic;font-size:.93em}.hilite{background-color:#ffa}.callout{margin:10px 0;padding:10px 15px;border:1px solid #aaa;background:#454041;color:#c9cbcd;font-size:1.1em}.callout a{color:#b3beff}.callout a:visited,.callout a:active{color:#a4adff}.callout a:hover,.callout a:visited:hover,.callout a:active:hover{color:#c4cfff}.note{color:#444;font-size:.92em}.header{font-weight:bold;font-size:1.16em}.pagelog{width:90%;overflow:scroll}.preformatted-desc{width:90%;overflow:auto}#info .adblock{display:none}.adblock{overflow:hidden}.adblock>p{font-size:.93em;margin:2px 0}.adblock img{display:block;margin:0 auto}.adblock{background-color:white;text-align:center}.adblock.ad728{display:none}.adblock.ad300{padding:10px}.adblock.grouped{float:left;padding:0}.adblock.ad300.grouped{float:none;padding:10px}.adblock.rails{display:none}#div-gpt-ad-728x90-BTF-1{max-height:340px}@media screen and (min-width:481px){.adblock.ad300{padding:10px 0}}@media screen and (min-width:800px){.adblock.ad728{display:block;float:none;margin-bottom:10px}.adblock.ad300{display:none}.adblock.grouped.ad728{display:none}.adblock.grouped.ad300{float:left;width:320px;background:none;padding:0;display:block}}@media screen and (min-width:1810px){.adblock.rails{display:block;height:600px;width:160px;background-color:transparent;border:1px #555 dotted;position:absolute;top:96px}.adblock.rails.left{left:0}.adblock.rails.right{right:0}}@media screen and (max-width:330px){.adblock{padding:0}.adblock.grouped{padding:0}.adblock.ad300.grouped{padding:0}}.button{background-color:#82081b;padding:10px 15px;color:white;text-decoration:none;display:inline-block;text-align:center;font-size:1.1em;margin:10px 0;border-radius:5px;cursor:pointer}.button:active,.button:visited,a.button,a.button:visited,a.button:hover{color:white}.button.alt{background:#cf2036;border:#747678 1px solid;display:block}button.tooltip,button.modal{background:transparent;border:none;text-align:left;padding:0;color:#900}.prevnext{margin:10px 0 15px 0}.button2{display:inline-block;border:1px solid #c9cbcd;border-radius:3px;background-color:#efedee;font-size:.93em;font-weight:normal;margin:0 8px 0 0;padding:8px 12px;width:auto;text-align:center}#meta .button2{font-size:.785714286em;margin:0 6px 0 0;padding:8px 7px}.button2[href]{text-decoration:none}.button2.next{text-align:right}.button2.prev{text-align:left}.button2.index,.button2.index:hover,.button2.index:active,.button2.index:visited{background-color:#454041;color:#fff}.button2.index:hover{color:#ccc}.button2.current{text-align:left;background-color:#fff;border:none;font-weight:bold;padding-left:0;padding-right:0;margin-left:-8px;margin-right:0}.button2:last-child{margin-right:0}.button2.next:after{content:"\203A\203A";padding-left:6px;color:black}.button2.prev:before{content:"\2039\2039";padding-right:6px;color:black}#info_box div.prevnext{margin-left:1em}#header #main_nav>li>div{display:none;width:98%;position:absolute;top:100%;left:0;z-index:200;border-top:1px solid #454041;padding:1%;background:#fff;font-size:14px;font-weight:normal;box-shadow:0 6px 12px -3px #454041;color:black}#header #main_nav>li.drophover>div{display:block;line-height:initial}#main_nav div.name{font-weight:bold;margin:3px;width:auto}div.col1{width:90%;margin:5px 2% 5px 0;clear:both}div.col2{width:45%;margin:5px 2% 5px 0;float:left}div.col3{width:30%;margin:5px 1% 5px 0;float:left}div.col4{width:22%;margin:5px 1% 5px 0;float:left}div.col2:nth-child(4){clear:both}#main_nav td{padding:3px}#main_nav .end_links{clear:both}#main_nav .list{margin:0 0 8px;padding:3px;overflow-x:hidden;text-overflow:ellipsis}#main_nav div.list span{font-weight:bold;display:inline-block}#header_leaders div.list span{min-width:70px}#main_nav .game_summary td{padding:1px}.ac-outline{display:inline-block}.ac-wrapper{position:relative}.ac-prompt{position:absolute;font-size:16px;color:#454041;top:0;left:0;overflow:hidden;background:transparent}.ac-input:focus,.ac-input:active,.ac-hint:focus,.ac-input,.ac-hint{font-size:16px;background-color:#fff;width:100%;outline:0;border:0;margin:0;padding:0}.ac-input:focus,.ac-input:active,.ac-input{background-color:transparent}.ac-input{vertical-align:top;position:relative;color:#454041}.ac-hint{position:absolute;top:0;left:0;border-color:transparent;box-shadow:none;color:#747678}.ac-dropdown{position:absolute;visibility:hidden;padding:.5em 0;font-size:16px;background-color:#fff;z-index:100;cursor:default;overflow-x:hidden;white-space:pre;overflow-y:scroll;width:calc(100% - 2px);min-width:380px;border:#aaa 1px solid;border-top:none}.ac-suggestion{cursor:pointer;padding:.28em 1.5em;font-size:1em;line-height:1em;border-top:1px solid #fff;border-bottom:1px solid #fff}.ac-suggestion p{margin:0}.ac-suggestion.active,.ac-suggestion.active .search-results-item{color:#b12;font-weight:bold}.search-results-item em{font-style:normal;border-bottom:1px dotted}.ac-suggestion.ac-is-under-cursor,html.no-touchevents .ac-suggestion:hover{border-top:1px solid #aaa!important;border-bottom:1px solid #aaa!important;background-color:#ffa!important}.ac-suggestion-other-search{font-size:1em;line-height:1.2em;padding-left:.5em;color:#34d}.ac-results-header{font-size:1em;padding:.25em .4em;font-weight:700}.player_select_name{font-size:16px}.player_select_name button{font-size:2em;margin-left:10px;vertical-align:middle}.player_select_name strong{display:inline-block}.pi_forms .group input[type="search"]{max-width:none;height:auto;font-size:16px;padding-bottom:3px}.pi_forms .ac-outline{width:100%;max-width:520px}@media screen and (max-width:480px){.ac-dropdown{min-width:310px}#desc_container{font-size:12px}}@media screen and (max-width:723px){.no_mobile{display:none}}@media screen and (min-width:374px){#info h1 span{display:inline-block}#info h1 span.header_end{display:inline}}@media screen and (min-width:481px){#header #nav_trigger a{font-size:24px}#header img{height:28px}#info #meta>div.media-item{width:92px}#info #meta>div.media-item.logo{width:118px}#info #meta>div.media-item.country{width:140px;height:105px}#info #meta p:nth-child(6){display:block}#info #meta p:nth-child(7){display:block}#info #meta .opener:nth-child(-n+8){display:none}#info h1{font-size:1.7em}.button2,.button2.current{padding:8px 12px;margin:0 20px 0 0}}@media screen and (min-width:600px){#info #bling{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}#info.open #bling li{width:19.5%}#meta .button2{font-size:.93em;margin:0 20px 0 0;padding:8px 12px}}@media screen and (min-width:736px){.mobile_only{display:none}#wrap>#header{width:100%;padding-left:0;padding-right:0;border-bottom:none}#wrap>#srcom{width:99%;margin:0 auto}#wrap>#info{width:65%;width:calc(99% - 322px);margin:0 auto;padding-right:320px;min-height:270px}#info .adblock{display:block;position:absolute;top:0;right:0;height:270px;width:300px;padding:0}h2{font-size:1.8em;line-height:1.2em}#info h1{font-size:2em;line-height:1.1em}#info #meta{min-height:auto}#info#general #meta{min-height:auto}#info.open #bling li{width:28%}}@media screen and (min-width:800px){#info #meta>div{float:left;width:100%}#info #meta>div.media-item{float:left;margin-left:0;margin-right:10px}#info #meta>div.media-item+div{width:85%;width:calc(100% - 102px)}#info #meta>div.media-item.logo+div{width:calc(100% - 128px)}#info #meta>div.media-item.country+div{width:calc(100% - 160px)}#info #meta>div>p.opener{max-width:75%}#info.open.teams #bling li{width:45%}}@media screen and (min-width:1020px){#header #nav_trigger{display:none}#wrap>#header{border-bottom:2px solid #cf2036;overflow:visible;height:126px;background:#fff}#header img{position:absolute;top:22px;height:auto;max-height:55px;max-width:35%}#header #nav{display:block;width:100%;padding:0;margin:0;clear:none;background:#efedee;border-top:1px solid #c9cbcd;border-bottom:none;overflow:visible;height:30px;position:absolute;bottom:0}#header #nav>*{display:none}#header #nav>#main_nav{display:block;color:#454041;text-align:left;margin-bottom:0;border:none;overflow:visible}#header #main_nav ul{border:none;position:relative}#header #main_nav>li{border:none;width:auto;white-space:nowrap;float:left;color:#454041;font-size:1.16666667em;font-weight:bold;height:14px;padding:8px 2.2%;line-height:12px}#header #main_nav>li>a{color:#454041;padding:0;position:relative;font-size:1em}#header #main_nav>li.current>a{color:#fff}#header #main_nav>li.nm{display:block}#header #main_nav>li.m{display:none}#header #main_nav>li.hasmore>a:after{content:"";display:none}#header #main_nav>li.hasmore.drophover>a:after{content:"";display:none}#header #main_nav li:nth-child(even){border:none}#header #main_nav>li.drophover,#header #main_nav>li:not(.hasmore):hover,#inner_nav>ul>li.drophover{background:#454041}#header #main_nav>li.drophover>a,#header #main_nav>li:not(.hasmore):hover>a,#inner_nav>ul>li.drophover>a{color:#fff}#header #main_nav>li.drophover>span,#header #main_nav>li:not(.hasmore):hover>span,#inner_nav>ul>li.drophover>span{color:#fff}#header #main_nav>li>div>ul{overflow:hidden;margin-top:10px;margin-bottom:10px}#header #main_nav>li>div>ul>li{width:18%;margin-right:2%;margin-bottom:8px;float:left}html.no-touchevents .hasmore>div{position:absolute;left:-999em}html.no-touchevents .hasmore.drophover>div{z-index:69;left:0;box-shadow:0 6px 12px -3px #454041}#header #subnav{display:block;color:#c9cbcd;background-color:#454041;width:100%;padding:0;height:22px}#header #subnav>li{font-size:.785714286em;float:left;padding:6px 10px 2px;margin-top:4px;vertical-align:top;position:relative;border-left:1px solid #747678;line-height:.2em;height:8px}#header #subnav>li:first-child{display:block;border-left:none}#header #subnav>li:nth-child(n+10){float:right;border-left:none;border-right:1px solid #747678}#header #subnav>li:last-child{display:none}#header #subnav>li:last-child(2){border-right:none}#header #subnav>li.current a{color:#fff}#header #subnav li a{color:#c9cbcd;text-decoration:none}#header #subnav li a:hover{color:#fff;text-decoration:underline}#header #subnav li svg{vertical-align:top;margin-top:-6px}#header .search{position:relative;float:right;padding:0;width:60%;max-width:700px;clear:none;margin-right:12px;margin-top:17px}#wrap #info{overflow:hidden;margin-bottom:8px}#info #meta{margin-top:0;margin-bottom:10px;padding-top:15px;float:left;width:100%}#info.players #meta,#info.teams #meta{width:70%;width:calc(100% - 265px)}#info #bling,#info.open #bling,#info.teams #bling{float:right;width:250px;height:auto;margin-top:10px;margin-right:0;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}#info #bling li,#info.open #bling li{width:45%}#info.teams #bling li,#info.open.teams #bling li{width:92%}#info .opener{}#info #meta>div>p.opener{display:none}#info #meta p:nth-child(6){display:none}#info #meta p:nth-child(7){display:none}#info #meta .opener:nth-child(-n+8){display:block}#info.teams #meta p:nth-child(n+6){display:block}#info.teams #meta p:nth-child(n+11){display:none}#info.teams.open #meta p:nth-child(n+11){display:block}#info.teams #meta .opener:nth-child(-n+11){display:none}#info.leagues #meta p:nth-child(n+6){display:block}#info.leagues #meta p:nth-child(n+11){display:none}#info.leagues.open #meta p:nth-child(n+11){display:block}#info.leagues #meta .opener:nth-child(-n+11){display:none}#info .adblock>div{margin-top:2px}.uni_holder{float:right;clear:right;width:250px;margin-top:10px}.uni_holder>a{border-width:5px;float:none;width:42px;margin-right:.3em}.uni_holder svg{height:42px;width:42px}.uni_holder svg.jersey{height:52px}#info .uni_holder{float:right}#info .uni_holder>a,#info #bling+.uni_holder>a{display:inline-block}#bling+.uni_holder,#info.open #bling+.uni_holder{margin-top:0;width:250px;float:right}#info #bling+.uni_holder .counter{display:none}#info.open .uni_holder>a{width:42px}#info.open .uni_holder svg{height:42px;width:42px}#info.open .uni_holder svg.jersey{height:52px}.stats_pullout>div.p3{display:block}#bling li:after{content:"";position:absolute;top:-110%;left:-210%;width:150%;height:200%;opacity:0;transform:rotate(10deg);background:rgba(255,255,255,0.13);background:linear-gradient(to right,rgba(255,255,255,0.13) 0,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%)}#bling li:hover:after{opacity:1;top:-63%;left:-26%;transition-property:left,top,opacity;transition-duration:.7s,0.7s,0.15s;transition-timing-function:ease}#bling li:active:after{opacity:0}.adblock.ad728{display:block;float:left}.adblock.grouped.ad300{display:none}}@media screen and (min-width:1160px){#header #main_nav>li{padding:8px 2.5%}#info #meta>div.media-item{margin-right:20px;width:92px}#info #meta>div.media-item.logo{margin-right:10px;width:125px}#info #meta>div.media-item.country{width:160px;height:120px}#info #meta>div.media-item.logo>img{height:125px;width:125px}#info #meta>div.media-item+div{width:calc(100% - 112px)}#info #meta>div.media-item.logo+div{width:calc(100% - 135px)}#info #meta>div.media-item.country+div{width:calc(100% - 180px)}#info #meta>div.media-item.multiple:hover img.additional{display:block}#info #meta>div.media-item.multiple:hover{position:fixed;z-index:200;width:auto;background-color:rgba(200,200,200,0.8);padding:5px;border:1px solid black}#info #meta>div.media-item.multiple:hover+div{margin-left:112px}#info #meta>div.media-item.multiple:hover img{width:92px;float:left;margin-right:10px}#info #meta>div.media-item.multiple:hover img:last-child{margin-right:0}#info #meta>div.media-item.multiple:hover:after{content:'Order may not be chronological';font display:block;background:rgba(200,200,200,1);float:right;clear:left;padding:2px 5px;font-size:.83em}.stats_pullout>div>div{margin-left:21px}.stats_pullout p{font-size:1em}}@media screen and (min-width:1478px){#wrap{width:1450px;border-left:1px solid #747678;border-right:1px solid #747678;box-shadow:0 0 27px #454041;margin:0 auto}.sr_expanded>#wrap{width:100%;border:0;box-shadow:none}#header #subnav>li:last-child{display:block}#info #meta p:nth-child(6){display:block}#info #meta p:nth-child(7){display:block}#info #meta .opener:nth-child(-n+8){display:none}}.f-i,#footer,#content,#inner_nav,#srcom{display:none}</style>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/css/br/sr-min.css" as="style" crossorigin onload="this.rel='stylesheet'">
+<noscript><link href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/css/br/sr-min.css"  rel="stylesheet" type="text/css" /></noscript>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/js/br/sr-min.js" as="script" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/icons/sr_icons-min.svg?br" as="fetch" crossorigin>
+<link rel="preload"    href="https://d3k2oh6evki4b7.cloudfront.net/short/inc/main_nav_menu.json" as="fetch" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201604190/images/chosen-sprite.png" as="image" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com"  crossorigin>
+<link rel="preconnect" href="https://www.googletagservices.com" crossorigin>
+
+
+<script class="allowed">var sr_is_production = true;
+function vjs_ready(e){"loading"!=document.readyState?e():document.addEventListener("DOMContentLoaded",e)}var log_performance=!1,is_new_jscss_version=!1,sr_detect_operaMini=navigator.userAgent.indexOf("Opera Mini")>-1;sr_detect_operaMini&&((el=document.querySelector("html")).className=el.className.concat(" operamini"));var sr_detect_firefox=navigator.userAgent.indexOf("Firefox")>-1;sr_detect_firefox&&((el=document.querySelector("html")).className=el.className.concat(" firefox"));var sr_detect_firefoxMobile=navigator.userAgent.indexOf("Firefox")>-1&&(navigator.userAgent.indexOf("Mobile")>-1||navigator.userAgent.indexOf("Tablet")>-1);sr_detect_firefoxMobile&&((el=document.querySelector("html")).className=el.className.concat(" firefox-mobile"));var sr_detect_ie=function(){var e=window.navigator.userAgent;if(e.indexOf("Trident/7.0")>0)return 11;if(e.indexOf("Trident/6.0")>0)return 10;if(e.indexOf("Trident/5.0")>0)return 9;for(var t=3,n=document.createElement("div"),r=n.getElementsByTagName("i");n.innerHTML="\x3c!--[if gt IE "+ ++t+"]><i></i><![endif]--\x3e",r[0];);return t>4&&t}(),sr_detect_edge=!sr_detect_ie&&!!window.StyleMedia,sr_detect_safari=/Safari/.test(navigator.userAgent)&&/Apple Computer/.test(navigator.vendor),el=document.querySelector("html"),className="no-js";el.classList?el.classList.remove(className):el.className=el.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|)","gi")," "),el.className=el.className.concat(" js"),function(e,t,n){function r(e,t){return typeof e===t}function o(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):x?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function i(){var e=t.body;return e||(e=o(x?"svg":"body"),e.fake=!0),e}function a(e,n,r,a){var s,l,c,d,u="modernizr",f=o("div"),m=i();if(parseInt(r,10))for(;r--;)c=o("div"),c.id=a?a[r]:u+(r+1),f.appendChild(c);return s=o("style"),s.type="text/css",s.id="s"+u,(m.fake?m:f).appendChild(s),m.appendChild(f),s.styleSheet?s.styleSheet.cssText=e:s.appendChild(t.createTextNode(e)),f.id=u,m.fake&&(m.style.background="",m.style.overflow="hidden",d=M.style.overflow,M.style.overflow="hidden",M.appendChild(m)),l=n(f,e),m.fake?(m.parentNode.removeChild(m),M.style.overflow=d,M.offsetHeight):f.parentNode.removeChild(f),!!l}function s(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function l(e,t){return!!~(""+e).indexOf(t)}function c(e,t){return function(){return e.apply(t,arguments)}}function d(e,t,n){var o;for(var i in e)if(e[i]in t)return!1===n?e[i]:(o=t[e[i]],r(o,"function")?c(o,n||t):o);return!1}function u(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function f(t,n,r){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,t,n);var i=e.console;null!==o?r&&(o=o.getPropertyValue(r)):i&&i[i.error?"error":"log"].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}else o=!n&&t.currentStyle&&t.currentStyle[r];return o}function m(t,r){var o=t.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(u(t[o]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var i=[];o--;)i.push("("+u(t[o])+":"+r+")");return i=i.join(" or "),a("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"==f(e,null,"position")})}return n}function p(e,t,i,a){function c(){u&&(delete k.style,delete k.modElem)}if(a=!r(a,"undefined")&&a,!r(i,"undefined")){var d=m(e,i);if(!r(d,"undefined"))return d}for(var u,f,p,v,h,g=["modernizr","tspan","samp"];!k.style&&g.length;)u=!0,k.modElem=o(g.shift()),k.style=k.modElem.style;for(p=e.length,f=0;p>f;f++)if(v=e[f],h=k.style[v],l(v,"-")&&(v=s(v)),k.style[v]!==n){if(a||r(i,"undefined"))return c(),"pfx"!=t||v;try{k.style[v]=i}catch(e){}if(k.style[v]!=h)return c(),"pfx"!=t||v}return c(),!1}function v(e,t,n,o,i){var a=e.charAt(0).toUpperCase()+e.slice(1),s=(e+" "+N.join(a+" ")+a).split(" ");return r(t,"string")||r(t,"undefined")?p(s,t,o,i):(s=(e+" "+T.join(a+" ")+a).split(" "),d(s,t,n))}function h(e,t,r){return v(e,n,n,t,r)}var g=[],_=[],y={_version:"3.5.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){_.push({name:e,fn:t,options:n})},addAsyncTest:function(e){_.push({name:null,fn:e})}},b=function(){};b.prototype=y,(b=new b).addTest("cors","XMLHttpRequest"in e&&"withCredentials"in new XMLHttpRequest),b.addTest("cookies",function(){try{t.cookie="cookietest=1";var e=-1!=t.cookie.indexOf("cookietest=");return t.cookie="cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",e}catch(e){return!1}}),b.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}}),b.addTest("sessionstorage",function(){var e="modernizr";try{return sessionStorage.setItem(e,e),sessionStorage.removeItem(e),!0}catch(e){return!1}});var w=y._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];y._prefixes=w;var M=t.documentElement,x="svg"===M.nodeName.toLowerCase();x||function(e,t){function n(e,t){var n=e.createElement("p"),r=e.getElementsByTagName("head")[0]||e.documentElement;return n.innerHTML="x<style>"+t+"</style>",r.insertBefore(n.lastChild,r.firstChild)}function r(){var e=w.elements;return"string"==typeof e?e.split(" "):e}function o(e){var t=b[e[_]];return t||(t={},y++,e[_]=y,b[y]=t),t}function i(e,n,r){if(n||(n=t),p)return n.createElement(e);r||(r=o(n));var i;return!(i=r.cache[e]?r.cache[e].cloneNode():g.test(e)?(r.cache[e]=r.createElem(e)).cloneNode():r.createElem(e)).canHaveChildren||h.test(e)||i.tagUrn?i:r.frag.appendChild(i)}function a(e,t){t.cache||(t.cache={},t.createElem=e.createElement,t.createFrag=e.createDocumentFragment,t.frag=t.createFrag()),e.createElement=function(n){return w.shivMethods?i(n,e,t):t.createElem(n)},e.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+r().join().replace(/[\w\-:]+/g,function(e){return t.createElem(e),t.frag.createElement(e),'c("'+e+'")'})+");return n}")(w,t.frag)}function s(e){e||(e=t);var r=o(e);return!w.shivCSS||m||r.hasCSS||(r.hasCSS=!!n(e,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),p||a(e,r),e}function l(e){for(var t,n=e.getElementsByTagName("*"),o=n.length,i=RegExp("^(?:"+r().join("|")+")","i"),a=[];o--;)t=n[o],i.test(t.nodeName)&&a.push(t.applyElement(c(t)));return a}function c(e){for(var t,n=e.attributes,r=n.length,o=e.ownerDocument.createElement(x+":"+e.nodeName);r--;)(t=n[r]).specified&&o.setAttribute(t.nodeName,t.nodeValue);return o.style.cssText=e.style.cssText,o}function d(e){for(var t,n=e.split("{"),o=n.length,i=RegExp("(^|[\\s,>+~])("+r().join("|")+")(?=[[\\s,>+~#.:]|)","gi"),a="1"+x+"\\:2";o--;)t=n[o]=n[o].split("}"),t[t.length-1]=t[t.length-1].replace(i,a),n[o]=t.join("}");return n.join("{")}function u(e){for(var t=e.length;t--;)e[t].removeNode()}function f(e){function t(){clearTimeout(a._removeSheetTimer),r&&r.removeNode(!0),r=null}var r,i,a=o(e),s=e.namespaces,c=e.parentWindow;return!E||e.printShived?e:(void 0===s[x]&&s.add(x),c.attachEvent("onbeforeprint",function(){t();for(var o,a,s,c=e.styleSheets,u=[],f=c.length,m=Array(f);f--;)m[f]=c[f];for(;s=m.pop();)if(!s.disabled&&M.test(s.media)){try{o=s.imports,a=o.length}catch(e){a=0}for(f=0;a>f;f++)m.push(o[f]);try{u.push(s.cssText)}catch(e){}}u=d(u.reverse().join("")),i=l(e),r=n(e,u)}),c.attachEvent("onafterprint",function(){u(i),clearTimeout(a._removeSheetTimer),a._removeSheetTimer=setTimeout(t,500)}),e.printShived=!0,e)}var m,p,v=e.html5||{},h=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)/i,g=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)/i,_="_html5shiv",y=0,b={};!function(){try{var e=t.createElement("a");e.innerHTML="<xyz></xyz>",m="hidden"in e,p=1==e.childNodes.length||function(){t.createElement("a");var e=t.createDocumentFragment();return void 0===e.cloneNode||void 0===e.createDocumentFragment||void 0===e.createElement}()}catch(e){m=!0,p=!0}}();var w={elements:v.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:"3.7.3",shivCSS:!1!==v.shivCSS,supportsUnknownElements:p,shivMethods:!1!==v.shivMethods,type:"default",shivDocument:s,createElement:i,createDocumentFragment:function(e,n){if(e||(e=t),p)return e.createDocumentFragment();for(var i=(n=n||o(e)).frag.cloneNode(),a=0,s=r(),l=s.length;l>a;a++)i.createElement(s[a]);return i},addElements:function(e,t){var n=w.elements;"string"!=typeof n&&(n=n.join(" ")),"string"!=typeof e&&(e=e.join(" ")),w.elements=n+" "+e,s(t)}};e.html5=w,s(t);var M=/^|\b(?:all|print)\b/,x="html5shiv",E=!p&&function(){var n=t.documentElement;return!(void 0===t.namespaces||void 0===t.parentWindow||void 0===n.applyElement||void 0===n.removeNode||void 0===e.attachEvent)}();w.type+=" print",w.shivPrint=f,f(t),"object"==typeof module&&module.exports&&(module.exports=w)}(void 0!==e?e:this,t),b.addTest("canvas",function(){var e=o("canvas");return!(!e.getContext||!e.getContext("2d"))});var E=function(){var e=!("onblur"in t.documentElement);return function(t,r){var i;return!!t&&(r&&"string"!=typeof r||(r=o(r||"div")),t="on"+t,!(i=t in r)&&e&&(r.setAttribute||(r=o("div")),r.setAttribute(t,""),i="function"==typeof r[t],r[t]!==n&&(r[t]=n),r.removeAttribute(t)),i)}}();y.hasEvent=E;var S=y.testStyles=a;b.addTest("touchevents",function(){var n;if("ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch)n=!0;else{var r=["@media (",w.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");S(r,function(e){n=9===e.offsetTop})}return n}),b.addTest("unicode",function(){var e,t=o("span"),n=o("span");return S("#modernizr{font-family:Arial,sans;font-size:300em;}",function(r){t.innerHTML=x?"妇":"&#5987;",n.innerHTML=x?"☆":"&#9734;",r.appendChild(t),r.appendChild(n),e="offsetWidth"in t&&t.offsetWidth!==n.offsetWidth}),e});var z="Moz O ms Webkit",T=y._config.usePrefixes?z.toLowerCase().split(" "):[];y._domPrefixes=T,b.addTest("pointerevents",function(){var e=!1,t=T.length;for(e=b.hasEvent("pointerdown");t--&&!e;)E(T[t]+"pointerdown")&&(e=!0);return e});var N=y._config.usePrefixes?z.split(" "):[];y._cssomPrefixes=N;var C=function(t){var r,o=w.length,i=e.CSSRule;if(void 0===i)return n;if(!t)return!1;if(t=t.replace(/^@/,""),(r=t.replace(/-/g,"_").toUpperCase()+"_RULE")in i)return"@"+t;for(var a=0;o>a;a++){var s=w[a];if(s.toUpperCase()+"_"+r in i)return"@-"+s.toLowerCase()+"-"+t}return!1};y.atRule=C;var L={elem:o("modernizr")};b._q.push(function(){delete L.elem});var k={style:L.elem.style};b._q.unshift(function(){delete k.style}),y.testAllProps=v,y.testAllProps=h,b.addTest("flexwrap",h("flexWrap","wrap",!0));var j=y.prefixed=function(e,t,n){return 0===e.indexOf("@")?C(e):(-1!=e.indexOf("-")&&(e=s(e)),t?v(e,t,n):v(e,"pfx"))};b.addTest("matchmedia",!!j("matchMedia",e)),b.addTest("vibrate",!!j("vibrate",navigator)),function(){var e,t,n,o,i,a,s;for(var l in _)if(_.hasOwnProperty(l)){if(e=[],(t=_[l]).name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(o=r(t.fn,"function")?t.fn():t.fn,i=0;i<e.length;i++)a=e[i],1===(s=a.split(".")).length?b[s[0]]=o:(!b[s[0]]||b[s[0]]instanceof Boolean||(b[s[0]]=new Boolean(b[s[0]])),b[s[0]][s[1]]=o),g.push((o?"":"no-")+s.join("-"))}}(),function(e){var t=M.className,n=b._config.classPrefix||"";if(x&&(t=t.baseVal),b._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|)");t=t.replace(r,"1"+n+"js2")}b._config.enableClasses&&(t+=" "+n+e.join(" "+n),x?M.className.baseVal=t:M.className=t)}(g),delete y.addTest,delete y.addAsyncTest;for(var A=0;A<b._q.length;A++)b._q[A]();e.Modernizr=b}(window,document),Modernizr.viewport_width=Math.max(document.documentElement.clientWidth,window.innerWidth||0),Modernizr.viewport_height=Math.max(document.documentElement.clientHeight,window.innerHeight||0),Modernizr.narrow=Modernizr.viewport_width<=704,Modernizr.constrained=Modernizr.viewport_width<=1200,Modernizr.site_menu=Modernizr.viewport_width<=1020?"button":"nav_bar",Modernizr.touch=Modernizr.touchevents||Modernizr.pointerevents&&(navigator.MaxTouchPoints>0||navigator.msMaxTouchPoints>0),Modernizr.phone=Modernizr.narrow&&Modernizr.touch,Modernizr.tablet=Modernizr.viewport_width<1075&&Modernizr.touch,Modernizr.desktop=!Modernizr.constrained&&!Modernizr.touch,Modernizr.laptop=!(Modernizr.desktop||Modernizr.tablet||Modernizr.phone);var patt=new RegExp("hideallads");Modernizr.adfree=patt.test(window.location.href);var sr_html=document.querySelector("html"),cn=sr_html.className;Modernizr.phone?sr_html.className=cn.concat(" phone"):Modernizr.tablet?sr_html.className=cn.concat(" tablet"):(Modernizr.desktop||Modernizr.laptop)&&(sr_html.className=cn.concat(" desktop"));var sr_host_parts=window.location.hostname.split("."),cn=sr_html.className;Modernizr.is_build=Modernizr.is_live=Modernizr.is_dev=!1,"b"===sr_host_parts[0]?(Modernizr.is_build=!0,sr_html.className=cn.concat(" is_build")):"d"===sr_host_parts[0]||"r"===sr_host_parts[0]?(Modernizr.is_dev=!0,sr_html.className=cn.concat(" is_dev")):"www"===sr_host_parts[0]&&(Modernizr.is_live=!0,sr_html.className=cn.concat(" is_live"));var sr_logger=function(){var e=null,t={};return t.enableLogger=function(){null!=e&&(window.console.log=e)},t.disableLogger=function(){e=console.log,window.console.log=function(){}},t}();sr_is_production&&sr_logger.disableLogger(),Modernizr.is_modern=(Modernizr.canvas||Modernizr.localstorage)&&!sr_detect_operaMini,Modernizr.is_modern?(document.documentElement.className+=" is_modern",Modernizr.is_not_modern=!1):(document.documentElement.className+=" is_not_modern",Modernizr.is_not_modern=!0);var sr_utilities_js_loader=[];!function(e){var t=function(t,n){"use strict";var r=e.document.getElementsByTagName("script")[0],o=e.document.createElement("script");return o.src=t,o.async=!0,r.parentNode.insertBefore(o,r),n&&"function"==typeof n&&(o.onload=n),o};"undefined"!=typeof module?module.exports=t:e.loadJS=t}("undefined"!=typeof global?global:this),function(e){"use strict";var t=function(t,n,r){function o(e){if(s.body)return e();setTimeout(function(){o(e)})}function i(){l.addEventListener&&l.removeEventListener("load",i),l.media=r||"all"}var a,s=e.document,l=s.createElement("link");if(n)a=n;else{var c=(s.body||s.getElementsByTagName("head")[0]).childNodes;a=c[c.length-1]}var d=s.styleSheets;l.rel="stylesheet",l.href=t,l.media="only x",o(function(){a.parentNode.insertBefore(l,n?a:a.nextSibling)});var u=function(e){for(var t=l.href,n=d.length;n--;)if(d[n].href===t)return e();setTimeout(function(){u(e)})};return l.addEventListener&&l.addEventListener("load",i),l.onloadcssdefined=u,u(i),l};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);var sr_time_begin=new Date,sr_perf_startTime=new Date,sr_perf_log="<strong>Performance:</strong>",sr_perf_lastTime=new Date;
+
+</script>
+
+<script>
+if (Modernizr.is_modern) { loadJS( "https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/js/br/sr-min.js"     , function() { vjs_ready(sr_fire_js); }); }
+else                     { loadJS( "https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/js/br/sr-basic-min.js", function() { vjs_ready(sr_fire_js); }); }
+</script>    
+
+<script>sr_utilities_js_loader.push(function() { vjs_createCookie('srcssfull', 'yes', 0.5 )});</script>
+
+
+    <title>Patrick Corbin 2018 Pitching Game Logs | Baseball-Reference.com</title>
+    <meta name="revised" content="14:44:35 25-Apr-2018" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="generated-by"     content="/home/br/www/players/gl.fcgi" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="4d383b" />
+    <meta name="msapplication-navbutton-color" content="4d383b" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="4d383b" />
+        
+
+<meta name="keywords" content="">
+    <link rel="canonical" href="https://www.baseball-reference.com/players/gl.fcgi?id=corbipa01&t=p&year=2018" />
+
+<meta itemprop="url"           content="https://www.baseball-reference.com">
+    <meta itemprop="name"          content="Baseball Reference">
+    <meta itemprop="alternateName" content="BBref">
+    <meta name="Description" content="Patrick Corbin Every game played with complete stats, links to box scores and automated row summing for 2018">
+<meta property="fb:app_id"     content="">
+    <meta property="og:url"          content="https://www.baseball-reference.com/players/gl.fcgi?id=corbipa01&t=p&year=2018">
+    <meta property="og:title"        content="Patrick Corbin 2018 Pitching Game Logs | Baseball-Reference.com">
+    <meta property="og:site_name"    content="Baseball-Reference.com">
+    <meta property="og:type"         content="    Athlete" />
+    <meta property="og:description"  content="Patrick Corbin Every game played with complete stats, links to box scores and automated row summing for 2018">
+    <meta property="og:image"        content="http://ssref.net/scripts/image_resize.cgi?min=200&url=https://d3k2oh6evki4b7.cloudfront.net/req/201804091/images/headshots/5/5d90e0e1_mlbam.jpg">
+<meta name="twitter:card"         content="summary">
+    <meta name="twitter:site"         content="@baseball_ref">
+    <meta name="twitter:creator"      content="@baseball_ref">
+    <meta property="twitter:image"    content="http://ssref.net/scripts/image_resize.cgi?min=200&url=https://d3k2oh6evki4b7.cloudfront.net/req/201804091/images/headshots/5/5d90e0e1_mlbam.jpg">
+    <meta name="twitter:domain"       content="Baseball-Reference.com">
+    <meta name="referrer" content="unsafe-url">
+
+    
+    <!-- tiles, touch, favicons -->
+    <link rel="icon"                         sizes="192x192" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-192x192-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="195x195" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-195x195-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="152x152" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="144x144" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="128x128" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-128x128-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="120x120" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="114x114" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="76x76"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="72x72"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="57x57"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/apple-touch-icon-57x57-precomposed.png">
+    <link rel="icon"                         sizes="32x32"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/favicon-32.png">
+    <!--[if IE]>
+    <link rel="shortcut icon"                                href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/favicon.ico"><![endif]-->
+    <meta name="msapplication-TileColor" content="#86081a" />
+    <meta name="msapplication-TileImage" content="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/favicons/br/ms-tile-144.png" />
+    <link rel=search        type="application/opensearchdescription+xml" href="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/opensearch/opensearch-br.xml" title=" Player and Team Search">
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var freestar = freestar || {};
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [ "div-gpt-ad-300x250-ATF","div-gpt-ad-728x90-ATF","div-gpt-ad-728x90-GeneralHeader","div-gpt-ad-728x90-Footer" ];
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree || document.getElementById('sr_suppress_ads') || Modernizr.viewport_width < 1810) {
+    // do not include the rails
+    }
+    else {
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-1');
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-2');
+    } 
+
+</script>
+<script data-cfasync="false" type="text/javascript">
+    var fs_debug = window.location.search.indexOf('fsdebug') == -1 ? false : true;
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.queue.push(function() {
+      // Include the line reflecting the area/section of the site you are on
+      googletag.pubads().setTargeting('sr_site_id', 'br');
+    });
+!function(a,b){
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+        return;
+    }  
+    var c=b.getElementsByTagName("script")[0],
+    d=b.createElement("script"),
+    e="https://a.pub.network/baseball-reference";
+    e+=fs_debug?"/qa/pubfig.min.js":"/pubfig.min.js",
+    d.async=!0,
+    d.src=e,
+    c.parentNode.insertBefore(d,c)
+}(window,document);
+</script>
+
+
+
+</head>
+<body class="br"	     >
+
+<div id="wrap">
+  <div id="header" role="banner">
+  <ul id="subnav">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li class="current"><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+	<li><a href="https://fbref.com/">Soccer</a></li>
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+        <li><a href="https://stathead.com/">Stathead</a></li>
+        <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+        	<li><a href="https://www.sports-reference.com/feedback/">Questions or Comments?</a></li>
+	<li class="user logged_in">Welcome<span class="username"></span>&nbsp;&#183;&nbsp;<a href="/my/">Your Account</a></li>
+<li class="user logged_in"><a class="logout" href="/my/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" href="/my/">Login</a></li>
+<li class="user not_logged_in"><a href="/my/">Create Account</a></li>
+<li><a href="/my/?do=ad_free_browsing">Surf AD-FREE</a></li>
+
+</ul>
+
+  <a href="/"><img src="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/logos/br-logo.svg" onerror="this.src='https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/logos/br-logo.png'; this.onerror = null;" alt="Baseball-Reference.com Logo &amp; Link to home page" /></a>
+<div id="nav_trigger" role="button"><a href="#site_menu_link">MENU</a></div>
+<div id="nav" role="navigation" aria-label="Baseball-Reference.com sections">
+	<ul id="main_nav" class="hoversmooth nohover">	        <li id="header_players" class="current"><a href="/players">Players</a></li>
+		<li id="header_teams" ><a href="/teams/">Teams</a></li>
+		<li id="header_leagues" ><a href="/leagues/">Seasons</a></li>
+		<li id="header_leaders" ><a href="/leaders/">Leaders</a></li>
+		<li id="header_scores" ><a href="/boxes/">MLB Scores</a></li>
+		<li id="header_playoffs" class=""><a href="/postseason/">MLB Playoffs</a></li>	
+		<li id="header_playindex" class=""><a href="/play-index/">Play Index</a></li>
+		<li><a data-scroll href="#site_menu_link" class="opener">Full Site Menu Below</a></li>
+	</ul>
+	<div class="breadcrumbs">You are here: <div itemscope itemtype="https://schema.org/BreadcrumbList" class="crumbs"><span><a href="/">BR Home</a></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/players/"><span itemprop="name">Players</span></a> <meta itemprop="position" content="1" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/players/c/corbipa01.shtml"><span itemprop="name">Patrick Corbin</span></a> <meta itemprop="position" content="2" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><strong><span itemprop="name">2018 Pitching Game Logs</span></strong> <meta itemprop="position" content="3" /></span></div></div>
+	<ul class="usertools bullets-inline"><li class="user logged_in">Welcome<span class="username"></span>&nbsp;&#183;&nbsp;<a href="/my/">Your Account</a></li>
+<li class="user logged_in"><a class="logout" href="/my/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" href="/my/">Login</a></li>
+<li class="user not_logged_in"><a href="/my/">Create Account</a></li>
+<li><a href="/my/?do=ad_free_browsing">Surf AD-FREE</a></li>
+	</ul><!-- ul.user -->
+</div><!-- div#nav -->
+<script>
+function sr_menus_setupMainNav_button_inline () {
+    if (sr_detect_operaMini || !("classList" in document.createElement("_"))) {
+	return false;
+    }
+    var nav_trigger = document.getElementById('nav_trigger');
+    if(!nav_trigger || !Modernizr.is_modern || nav_trigger.triggered) {
+	return false;
+    }
+    nav_trigger.triggered = true;
+    var nav = document.getElementById('nav');
+    var nav_trigger_a = nav_trigger.querySelector('a');
+    if (nav_trigger_a) {
+	nav_trigger_a.setAttribute('href','javascript:void(0)');
+	nav_trigger.onclick = function (event) {
+	    nav.classList.toggle('open');
+	    var is_open = nav.classList.contains('open');
+	    if (is_open) {
+		nav_trigger.classList.add('open');
+	    }
+	    else {
+		nav_trigger.classList.remove('open');
+	    }
+	    event.preventDefault();
+	    try { sr_record_analytics_event('MainNavButtonClick_inline',sr_record_directory(),sr_record_page());}
+	    catch(err) {}
+	};
+    }
+    return true;
+}
+sr_menus_setupMainNav_button_inline();
+</script><div class="search" role="search" aria-label="Site Search for players, teams and sections">
+<form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction" name="f_big"  action="/search/search.fcgi">
+<meta itemprop="target" content="https://www.baseball-reference.com/search/search.fcgi?search={search}">
+<div class="ac-outline">
+  <div class="ac-wrapper"><input type="search" tabindex="-1" class="ac-hint" name="hint" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto"><input tabindex="1" type="search" class="ac-input completely" name="search" placeholder="Enter Person, Team, Section, etc" aria-label="Enter a player, team or section name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" itemprop="query-input" />
+    <div class="ac-dropdown"></div>
+  </div>
+</div>
+<input type="submit" value="Search" tabindex="2" />
+<input type="hidden" name="pid" value="" data-search-id>
+<input type="hidden" name="idx" value="" data-search-idx>
+
+</form>
+</div><!-- div.search -->
+
+</div><!-- div#header -->
+
+
+<div id="info" class="players">
+	<div id="meta">
+	
+
+<div class="media-item"><img src="https://d3k2oh6evki4b7.cloudfront.net/req/201804091/images/headshots/5/5d90e0e1_mlbam.jpg" class="">
+</div><!-- div.media-item --><div itemscope itemtype="https://schema.org/Person" >
+	<h1 itemprop="name">Patrick Corbin</h1>
+	<p>
+    <strong>Position:</strong>
+    Pitcher
+  
+</p>
+
+<p>
+	<strong>Bats: </strong>Left
+        &nbsp;&bull;&nbsp;
+	<strong>Throws: </strong>Left
+</p>
+
+
+<p><span itemprop="height">6-3</span>,&nbsp;<span itemprop="weight">210lb</span>&nbsp;(190cm,&nbsp;95kg) </p>
+
+  <p>
+    <strong>Team:</strong>
+    <a href="/teams/ARI/2018.shtml">Arizona Diamondbacks</a> (majors)
+  </p>
+
+
+<p>
+  <strong><a href="/bio/">Born:</a></strong>
+    <span itemprop="birthDate" id="necro-birth" data-birth="1989-07-19">
+    <a href="/friv/birthdays.cgi?month=7&day=19">July 19</a>, <a href="/leagues/MLB/1989-births.shtml">1989</a>
+    </span>
+  <span itemprop="birthPlace">
+    in&nbsp;Clay,&nbsp;<a href="/bio/NY_born.shtml">NY</a></span>
+  <span class="f-i f-us">us</span>
+</p>
+
+
+
+
+
+
+  <p><strong>Draft</strong>: Drafted by  the <a href="/draft/?team_ID=ANA&amp;year_ID=2009&amp;draft_type=junreg&amp;query_type=franch_year">Los Angeles Angels of Anaheim</a> in the <a href="/draft/?year_ID=2009&amp;draft_round=2&amp;draft_type=junreg&amp;query_type=year_round">2nd round</a>  of the 2009 MLB June Amateur Draft  from <a href="/draft/?key_school=2d5e45bb&amp;exact=1&amp;query_type=key_school">Chipola College (Marianna, FL)</a>.</p>
+
+
+
+  
+    <p><strong>High School:</strong>        <a title="" href="/schools/?key_school=afc0860b">Cicero-North Syracuse HS (Cicero, NY)</a></p>
+  
+  
+  
+    <p><strong>Schools:</strong>        <a title="" href="/schools/?key_school=2d5e45bb">Chipola College (Marianna, FL)</a>,         <a title="" href="/schools/?key_school=9fee69e0">Mohawk Valley Community College (Utica, NY)</a></p>
+  
+
+
+
+  
+  
+  
+    
+   <p><strong><a href="/leagues/MLB/2012-debuts.shtml">Debut:</a></strong>
+    <a href="/play-index/route.cgi?dest=debut&amp;id=corbipa01&amp;game_id=MIA201204300">April 30, 2012</a>
+    (Age 22-286d,
+    17,771st in MLB history) 
+    <br>&nbsp;&nbsp;&nbsp;<a href="/boxes/MIA/MIA201204300.shtml">vs. MIA</A> 5.2 IP, 8 H, 6 SO, 3 BB, 3 ER, W
+    
+  </p>
+
+
+    
+
+
+
+  <p>
+    <strong><a href="/leagues/MLB/2012-rookies.shtml">Rookie Status:</a></strong>
+      
+        Exceeded rookie limits during 2012 season
+      
+
+  </p>
+
+
+
+  
+  <p>
+    <strong>2018 Contract Status</strong>:
+    Signed thru 2018, 1 yr/$7.5M (18)
+    
+  </p>
+
+  
+  <p>
+  
+  
+  
+  <strong>Service Time (01/2018)</strong>: 5.105
+
+  
+  
+  
+
+  
+  &nbsp;&bull;&nbsp;    
+  <strong>Free Agent</strong>: 2019
+  
+
+  
+  </p>
+  
+
+
+
+  <p>
+    <strong>Agents</strong>: ISE Baseball  </p>
+    
+
+
+  
+  
+  
+
+  
+<p>
+  <strong>Full Name:</strong> Patrick Alan Corbin 
+</p>
+
+
+
+
+  
+  
+
+
+<p>
+  <strong>Nicknames:</strong>
+  <a class="poptip" data-tip="click for all ballplayer nicknames" href="/friv/baseball-player-nicknames.shtml">Corby</a>
+</p>
+
+
+
+
+
+
+  
+  <p><strong><a title="Click for all ballplayers Twitter accounts" href="/friv/baseball-player-twitter-accounts.shtml">Twitter:</a></strong>
+    <a rel="nofollow" href="https://twitter.com/PatrickCorbin46">@PatrickCorbin46</a></p>
+    
+
+
+
+
+
+
+<button id="meta_more_button" class="opener" data-type="hide_after" data-class="open" data-id="info">More bio, uniform, draft, salary info</button>
+
+
+
+</div>
+</div><!-- div#meta -->
+
+
+			
+	<ul id="bling">
+	<li class="bling_special bling_all_star"><a href="/allstar/">1x All-Star</a></li>
+</ul>
+		
+	<div class="uni_holder br">
+	<a href="/friv/numbers.cgi?number=46" class="poptip default" data-tip="2012-2016 Arizona Diamondbacks">
+        <svg viewBox="0,0,50,50" class="medal"> <rect x="0" y="0" width="51" height="51" fill="white"></rect> <circle cx="25" cy="25" r="23" stroke="#A71930" stroke-width="4" fill="#fff" fill-opacity="0.0"></circle> <circle cx="25" cy="25" r="20" stroke="#000000" stroke-width="3" fill="#fff" fill-opacity="0.0"></circle> <text x="11" y="34" fill="#A71930" >46</text> </svg>
+
+	</a>
+	<a href="/friv/numbers.cgi?number=46" class="poptip" data-tip="2017-2018 Arizona Diamondbacks">
+        <svg viewBox="0,0,50,50" class="medal"> <rect x="0" y="0" width="51" height="51" fill="white"></rect> <circle cx="25" cy="25" r="23" stroke="#A71930" stroke-width="4" fill="#fff" fill-opacity="0.0"></circle> <circle cx="25" cy="25" r="20" stroke="#373535" stroke-width="3" fill="#fff" fill-opacity="0.0"></circle> <text x="11" y="34" fill="#A71930" >46</text> </svg>
+
+	</a>
+	<div class="counter opener" data-class="open" data-id="info" data-control-id="meta_more_button" data-type="hide_after">+1</div>
+</div>
+		
+	
+<div class="adblock ad300">
+
+<div><a href="/my/?do=ad_free_browsing">Support us without the ads? Go Ad-Free.</a></div>
+<!-- div#fs_fs_300_atf  -->
+<div align="center" id="div-gpt-ad-300x250-ATF">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-300x250-ATF');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-300x250-ATF'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_300_atf -->
+
+
+</div>
+
+	<div class="stats_pullout">
+<div><div>
+<h4>SUMMARY</h4>
+<p><strong>2018</strong></p>
+<p><strong>Career</strong></p>
+</div></div>
+<div class="p1">
+<div>
+<h4 class="poptip" data-tip="&lt;strong&gt;Wins Above Replacement&lt;/strong&gt;&lt;br&gt;A single number that presents the number of wins the player added&lt;br&gt;to the team above what a replacement player (think AAA or AAAA) would add.&lt;br&gt;Scale for a single-season: 8+ MVP Quality, 5+ All-Star Quality, 2+ Starter,&lt;br&gt;0-2 Reserve, &lt; 0 Replacement Level  &lt;br&gt;Developed by Sean Smith of BaseballProjection.com">WAR</h4><p>1.6</p>
+<p>9.2</p></div>
+
+<div>
+<h4 class="poptip" data-tip="Wins">W</h4><p>4</p>
+<p>49</p></div>
+
+<div>
+<h4 class="poptip" data-tip="Losses">L</h4><p>0</p>
+<p>47</p></div>
+
+<div>
+<h4 class="poptip" data-tip="&lt;strong&gt;9 * ER / IP&lt;/strong&gt;&lt;br&gt;For recent years, leaders need 1 IP&lt;br&gt;per team game played.&lt;br&gt;Bold indicates lowest ERA using current stats&lt;br&gt;&lt;span class=glimmer&gt;Gold&lt;/span&gt; means awarded ERA title at end of year.">ERA</h4><p>1.89</p>
+<p>4.02</p></div>
+</div><div class="p2">
+<div>
+<h4 class="poptip" data-tip="Games Played or Pitched">G</h4><p>5</p>
+<p>144</p></div>
+
+<div>
+<h4 class="poptip" data-tip="Games Started">GS</h4><p>5</p>
+<p>126</p></div>
+
+<div>
+<h4 class="poptip" data-tip="Saves">SV</h4><p>0</p>
+<p>2</p></div>
+</div><div class="p3">
+<div>
+<h4 class="poptip" data-tip="Innings Pitched">IP</h4><p>33.1</p>
+<p>779.0</p></div>
+
+<div>
+<h4 class="poptip" data-tip="Strikeouts">SO</h4><p>48</p>
+<p>699</p></div>
+
+<div>
+<h4 class="poptip" data-tip="&lt;strong&gt;(BB + H)/IP&lt;/strong&gt;&lt;br&gt;For recent years, leaders need 1 IP&lt;br&gt;per team game played">WHIP</h4><p>0.660</p>
+<p>1.318</p></div>
+</div></div>
+	
+</div><!-- div#info -->
+<div id="srcom">
+	
+<div class="adblock ad728">
+
+<!-- div#fs_fs_728_atf  -->
+<div align="center" id="div-gpt-ad-728x90-ATF">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-ATF');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-ATF'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_728_atf -->
+
+
+</div>
+
+	
+</div><!-- div#srcom -->
+<div id="inner_nav" role="navigation" aria-label="Sections on this page and/or other pages related to this page" class="">
+	<ul class="hoversmooth">
+		<li		   class="index "><a href="/players/c/corbipa01.shtml">Patrick Corbin Overview</a>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="condensed hasmore "><span>More Corbin Pages</span>
+			<div>
+
+					<section>
+						<p><a href="/register/player.fcgi?id=corbin001pat">Minor Lg Stats</a></p>
+						
+					</section>
+
+
+<p class="listhead">Pitching Splits</p>
+					<ul class="">
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=p">Career</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=p">2012</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=p">2013</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=p">2015</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=p">2016</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=p">2017</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=p">2018</a></li>
+					</ul>
+
+<p class="listhead">Batting Splits</p>
+					<ul class="">
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=b">Career</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=b">2012</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=b">2013</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=b">2015</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=b">2016</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=b">2017</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=b">2018</a></li>
+					</ul>
+
+<p class="listhead">Pitching Game Logs</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2018">2018</a></li>
+					</ul>
+
+<p class="listhead">Batting Game Logs</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2018">2018</a></li>
+					</ul>
+
+<p class="listhead">Fielding Game Logs</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2018">2018</a></li>
+					</ul>
+
+<p class="listhead">Pitching Finders & Advanced Stats</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-pitch.shtml">Advanced Stats</a></li>
+						<li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=p">Home Run Log</a></li>
+						<li><a href="/play-index/game_finder.cgi?type=p&amp;id=corbipa01">Game Finder</a></li>
+						<li><a href="/play-index/streak_finder.cgi?type=p&amp;id=corbipa01">Streak Finder</a></li>
+						<li><a href="/play-index/event_finder.cgi?type=p&amp;id=corbipa01">Event Finder</a></li>
+						<li><a href="/play-index/batter_vs_pitcher.cgi?pitcher=corbipa01">vs. Batter</a></li>
+						<li><a href="/play-index/player-comparison.cgi?sum=1&type=p&player_id_1=corbipa01">Pitcher Comparison</a></li>
+					</ul>
+
+<p class="listhead">Batting Finders & Advanced Stats</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-bat.shtml">Advanced Stats</a></li>
+						<li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=b">Home Run Log</a></li>
+						<li><a href="/play-index/game_finder.cgi?type=b&amp;id=corbipa01">Game Finder</a></li>
+						<li><a href="/play-index/streak_finder.cgi?type=b&amp;id=corbipa01">Streak Finder</a></li>
+						<li><a href="/play-index/event_finder.cgi?type=b&amp;id=corbipa01">Event Finder</a></li>
+						<li><a href="/play-index/batter_vs_pitcher.cgi?batter=corbipa01">vs. Pitcher</a></li>
+						<li><a href="/play-index/player-comparison.cgi?sum=1&type=b&player_id_1=corbipa01">Batter Comparison</a></li>
+					</ul>
+
+<p class="listhead">Fielding Finders & Advanced Stats</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-field.shtml">Advanced Stats</a></li>
+					</ul>
+
+<p class="listhead">More Patrick Corbin Pages at Baseball Reference</p>
+					<ul class="">
+						<li><a href="/oracle/at-distance.cgi?d=1&amp;n1=corbipa01">Oracle</a></li>
+						<li><a href="/bullpen/Patrick_Corbin">Patrick Corbin page at the Bullpen Wiki</a></li>
+					</ul>
+
+			</div>		</li>
+		<li		   class="full "><a href="/register/player.fcgi?id=corbin001pat">Minor Lg Stats</a>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="full hasmore "><span>Splits</span>
+			<div>
+<p class="listhead">Pitching</p>
+					<ul class="">
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=p">Career</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=p">2012</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=p">2013</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=p">2015</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=p">2016</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=p">2017</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=p">2018</a></li>
+					</ul>
+
+<p class="listhead">Batting</p>
+					<ul class="">
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=b">Career</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=b">2012</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=b">2013</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=b">2015</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=b">2016</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=b">2017</a></li>
+						<li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=b">2018</a></li>
+					</ul>
+
+			</div>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="full current hasmore "><span>Game Logs</span>
+			<div>
+<p class="listhead">Pitching</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2018">2018</a></li>
+					</ul>
+
+<p class="listhead">Batting</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2018">2018</a></li>
+					</ul>
+
+<p class="listhead">Fielding</p>
+					<ul class="">
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2012">2012</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2013">2013</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2015">2015</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2016">2016</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2017">2017</a></li>
+						<li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2018">2018</a></li>
+					</ul>
+
+			</div>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="full hasmore "><span>Finders & Advanced Stats</span>
+			<div>
+<p class="listhead">Pitching</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-pitch.shtml">Advanced Stats</a></li>
+						<li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=p">Home Run Log</a></li>
+						<li><a href="/play-index/game_finder.cgi?type=p&amp;id=corbipa01">Game Finder</a></li>
+						<li><a href="/play-index/streak_finder.cgi?type=p&amp;id=corbipa01">Streak Finder</a></li>
+						<li><a href="/play-index/event_finder.cgi?type=p&amp;id=corbipa01">Event Finder</a></li>
+						<li><a href="/play-index/batter_vs_pitcher.cgi?pitcher=corbipa01">vs. Batter</a></li>
+						<li><a href="/play-index/player-comparison.cgi?sum=1&type=p&player_id_1=corbipa01">Pitcher Comparison</a></li>
+					</ul>
+
+<p class="listhead">Batting</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-bat.shtml">Advanced Stats</a></li>
+						<li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=b">Home Run Log</a></li>
+						<li><a href="/play-index/game_finder.cgi?type=b&amp;id=corbipa01">Game Finder</a></li>
+						<li><a href="/play-index/streak_finder.cgi?type=b&amp;id=corbipa01">Streak Finder</a></li>
+						<li><a href="/play-index/event_finder.cgi?type=b&amp;id=corbipa01">Event Finder</a></li>
+						<li><a href="/play-index/batter_vs_pitcher.cgi?batter=corbipa01">vs. Pitcher</a></li>
+						<li><a href="/play-index/player-comparison.cgi?sum=1&type=b&player_id_1=corbipa01">Batter Comparison</a></li>
+					</ul>
+
+<p class="listhead">Fielding</p>
+					<ul class="">
+						<li><a href="/players/c/corbipa01-field.shtml">Advanced Stats</a></li>
+					</ul>
+
+			</div>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="full hasmore "><span>More</span>
+			<div>
+<p class="listhead">More Patrick Corbin Pages at Baseball Reference</p>
+					<ul class="">
+						<li><a href="/oracle/at-distance.cgi?d=1&amp;n1=corbipa01">Oracle</a></li>
+						<li><a href="/bullpen/Patrick_Corbin">Patrick Corbin page at the Bullpen Wiki</a></li>
+					</ul>
+
+			</div>		</li>
+		<li data-fade-selector="#inpage_nav"		   class="groupstuff hasmore "><a href="/teams/ARI/2018.shtml">2018 Diamondbacks</a>
+			<div>
+<p class="listhead"><a href="/teams/ARI/2018.shtml">2018 Diamondbacks</a><br>
+(16-6, 1st place in NL West)
+</p>
+					<ul class="">
+						<li><a href="/teams/ARI/2018-roster.shtml">40-man Roster</a></li>
+						<li><a href="/teams/ARI/2018-schedule-scores.shtml">Schedule</a></li>
+					</ul>
+
+<p class="listhead">Roster</p>
+					<ul class=" grouplist">
+					</ul>
+					<p class="opener" data-id="more_grouplist" data-textopen="less" data-textclosed="entire">Show <span>entire</span> roster</p>
+
+			</div>		</li>
+	</ul>
+</div><!-- div#inner_nav -->
+
+<div id="content" role="main">
+   
+
+          
+      
+      
+      
+      
+            
+
+<!-- fs_general_header -->
+<div class="adblock">
+
+<!-- div#fs_fs_general_header  -->
+<div align="center" id="div-gpt-ad-728x90-GeneralHeader">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-GeneralHeader');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-GeneralHeader'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_general_header -->
+
+</div>
+
+      	 
+      
+      
+         
+            <div>
+<strong>Team Record in Appearances:</strong> 4-1
+ / <strong>in Starts:</strong> 4-1
+</div>
+
+<div id="all_days_rest" class="table_wrapper setup_commented commented">
+
+<div class="section_heading">
+  <span class="section_anchor" id="days_rest_link" data-label="Days of Rest"></span>
+    <h2>Days of Rest</h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>		
+</div>
+<div class="placeholder"></div>
+<!--
+   <div class="table_outer_container">
+      <div class="overthrow table_container" id="div_days_rest">
+  <table class="sortable stats_table" id="days_rest" data-cols-to-freeze=0><caption>Days of Rest</caption>
+   <colgroup><col><col><col><col><col><col><col><col><col><col></colgroup>
+   <thead>      
+      <tr>
+         <th aria-label="DH" data-stat="DH" scope="col" class=" poptip center" >DH</th>
+         <th aria-label="0" data-stat="0" scope="col" class=" poptip center" >0</th>
+         <th aria-label="1" data-stat="1" scope="col" class=" poptip center" >1</th>
+         <th aria-label="2" data-stat="2" scope="col" class=" poptip center" >2</th>
+         <th aria-label="3" data-stat="3" scope="col" class=" poptip center" >3</th>
+         <th aria-label="4" data-stat="4" scope="col" class=" poptip center" >4</th>
+         <th aria-label="5" data-stat="5" scope="col" class=" poptip center" >5</th>
+         <th aria-label="6" data-stat="6" scope="col" class=" poptip center" >6</th>
+         <th aria-label="7" data-stat="7" scope="col" class=" poptip center" >7</th>
+         <th aria-label="Other (days rest listed)" data-stat="Other (days rest listed)" scope="col" class=" poptip center" >Other (days rest listed)</th>
+      </tr>
+      
+   </thead>
+   <tbody>
+<tr ><th scope="row" class="right " data-stat="DH" ></th><td class="right " data-stat="0" ></td><td class="right " data-stat="1" ></td><td class="right " data-stat="2" ></td><td class="right " data-stat="3" ></td><td class="right " data-stat="4" >1</td><td class="right " data-stat="5" >2</td><td class="right " data-stat="6" >1</td><td class="right " data-stat="7" ></td><td class="right " data-stat="Other (days rest listed)" >99 days</td></tr>
+
+</tbody></table>
+
+      </div>
+   </div>
+-->
+</div>
+
+<div id="all_run_support" class="table_wrapper setup_commented commented">
+
+<div class="section_heading">
+  <span class="section_anchor" id="run_support_link" data-label="Run Support in Games Started"></span>
+    <h2>Run Support in Games Started</h2>    <div class="section_heading_text">
+      <ul> <li>Total runs in Starts, Avg. is per 27 outs</li>
+      </ul>
+    </div>		
+</div>
+<div class="placeholder"></div>
+<!--
+   <div class="table_outer_container">
+      <div class="overthrow table_container" id="div_run_support">
+  <table class="sortable stats_table" id="run_support" data-cols-to-freeze=0><caption>Run Support in Games Started</caption>
+   <colgroup><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+   <thead>      
+      <tr>
+         <th aria-label="Avg" data-stat="Avg" scope="col" class=" poptip center" >Avg</th>
+         <th aria-label="0" data-stat="0" scope="col" class=" poptip center" >0</th>
+         <th aria-label="1" data-stat="1" scope="col" class=" poptip center" >1</th>
+         <th aria-label="2" data-stat="2" scope="col" class=" poptip center" >2</th>
+         <th aria-label="3" data-stat="3" scope="col" class=" poptip center" >3</th>
+         <th aria-label="4" data-stat="4" scope="col" class=" poptip center" >4</th>
+         <th aria-label="5" data-stat="5" scope="col" class=" poptip center" >5</th>
+         <th aria-label="6" data-stat="6" scope="col" class=" poptip center" >6</th>
+         <th aria-label="7" data-stat="7" scope="col" class=" poptip center" >7</th>
+         <th aria-label="8" data-stat="8" scope="col" class=" poptip center" >8</th>
+         <th aria-label="9" data-stat="9" scope="col" class=" poptip center" >9</th>
+         <th aria-label="Other Game Totals" data-stat="Other Game Totals" scope="col" class=" poptip center" >Other Game Totals</th>
+      </tr>
+      
+   </thead>
+   <tbody>
+<tr ><th scope="row" class="right " data-stat="Avg" >4.39</th><td class="right " data-stat="0" ></td><td class="right " data-stat="1" >1</td><td class="right " data-stat="2" ></td><td class="right " data-stat="3" >1</td><td class="right " data-stat="4" >2</td><td class="right " data-stat="5" ></td><td class="right " data-stat="6" ></td><td class="right " data-stat="7" ></td><td class="right " data-stat="8" >1</td><td class="right " data-stat="9" ></td><td class="right " data-stat="Other Game Totals" ></td></tr>
+
+</tbody></table>
+
+      </div>
+   </div>
+-->
+</div>
+
+<div id="all_pitching_gamelogs" class="table_wrapper setup_long long">
+
+<div class="section_heading">
+  <span class="section_anchor" id="pitching_gamelogs_link" data-label="2018 Pitching Game Log"></span>
+    <h2>2018 Pitching Game Log</h2>    <div class="section_heading_text">
+      <ul> <li>Click two rows to sum games (<span class="tooltip" onclick="clear_span_selection('pitching_gamelogs');">Clear</span>)</li><li>Click pitches for details from <a href="http://www.brooksbaseball.net/">BrooksBaseball.net</a></li>
+      </ul>
+    </div>		
+</div>   <div class="table_outer_container">
+      <div class="overthrow table_container" id="div_pitching_gamelogs">
+  <table class="row_summable sortable stats_table" id="pitching_gamelogs" data-cols-to-freeze=2><caption>2018 Pitching Game Log</caption>
+   <colgroup><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col><col></colgroup>
+   <thead>      
+      <tr>
+         <th aria-label="&lt;strong&gt;Rank&lt;/strong&gt;&lt;br&gt;This is a count of the rows from top to bottom.&lt;br&gt;It is recalculated following the sorting of a column." data-stat="ranker" scope="col" class="tooltip ranker poptip sort_default_asc show_partial_when_sorting center" data-tip="&lt;strong&gt;Rank&lt;/strong&gt;&lt;br&gt;This is a count of the rows from top to bottom.&lt;br&gt;It is recalculated following the sorting of a column." >Rk</th>
+         <th aria-label="&lt;strong&gt;Career Game Number for Player&lt;/strong&gt;&lt;br&gt;Click to see career stats through the&lt;br&gt;end of this game for this player." data-stat="career_game_num" scope="col" class="tooltip ranker poptip sort_default_asc show_partial_when_sorting center" data-tip="&lt;strong&gt;Career Game Number for Player&lt;/strong&gt;&lt;br&gt;Click to see career stats through the&lt;br&gt;end of this game for this player." >Gcar</th>
+         <th aria-label="&lt;strong&gt;Season Game Number for Team&lt;/strong&gt;&lt;br&gt;Click to see season stats through the&lt;br&gt;end of this game for this player.&lt;br&gt;Number in parentheses indicates number &lt;br&gt;of team games the player did not play in from one appearance to next. " data-stat="team_game_num" scope="col" class="tooltip ranker poptip sort_default_asc show_partial_when_sorting center" data-tip="&lt;strong&gt;Season Game Number for Team&lt;/strong&gt;&lt;br&gt;Click to see season stats through the&lt;br&gt;end of this game for this player.&lt;br&gt;Number in parentheses indicates number &lt;br&gt;of team games the player did not play in from one appearance to next. " >Gtm</th>
+         <th aria-label="A number in parentheses indicates which game of a doubleheader.&lt;br&gt;Click dates for box scores of games or standings on this day." data-stat="date_game" scope="col" class=" poptip sort_default_asc center" data-tip="A number in parentheses indicates which game of a doubleheader.&lt;br&gt;Click dates for box scores of games or standings on this day." >Date</th>
+         <th aria-label="Tm" data-stat="team_ID" scope="col" class=" poptip sort_default_asc show_partial_when_sorting center" >Tm</th>
+         <th aria-label="team_homeORaway" data-stat="team_homeORaway" scope="col" class=" poptip center" ></th>
+         <th aria-label="Opp" data-stat="opp_ID" scope="col" class=" poptip sort_default_asc show_partial_when_sorting center" >Opp</th>
+         <th aria-label="&lt;strong&gt;Game Result for Team&lt;/strong&gt;&lt;br&gt;W - Win, L - Loss, T - Tie (for a suspended game)" data-stat="game_result" scope="col" class=" poptip show_partial_when_sorting center" data-tip="&lt;strong&gt;Game Result for Team&lt;/strong&gt;&lt;br&gt;W - Win, L - Loss, T - Tie (for a suspended game)" >Rslt</th>
+         <th aria-label="&lt;strong&gt;Innings Played by Player&lt;/strong&gt;&lt;br&gt;CG - Complete Game started and finished&lt;br&gt;GS-# - Game Started to what inning&lt;br&gt;#-GF, Inning entered to end of game&lt;br&gt;#-# - Inning Entered to Inning Left&lt;br&gt;(#) Game did not go 9 innings (only shown when player finished the game).&lt;br&gt;For pitchers, an SHO means they shutout the opposition.&lt;br&gt;A zero for the innings means the innings played is unknown." data-stat="player_game_span" scope="col" class=" poptip show_partial_when_sorting center" data-tip="&lt;strong&gt;Innings Played by Player&lt;/strong&gt;&lt;br&gt;CG - Complete Game started and finished&lt;br&gt;GS-# - Game Started to what inning&lt;br&gt;#-GF, Inning entered to end of game&lt;br&gt;#-# - Inning Entered to Inning Left&lt;br&gt;(#) Game did not go 9 innings (only shown when player finished the game).&lt;br&gt;For pitchers, an SHO means they shutout the opposition.&lt;br&gt;A zero for the innings means the innings played is unknown." >Inngs</th>
+         <th aria-label="&lt;strong&gt;Decision, Save, or Hold&lt;/strong&gt;&lt;br&gt;W - Win (pitcher record after game)&lt;br&gt;L - Loss (pitcher record after game)&lt;br&gt;BW - Blown Save and Win (pitcher record after game)&lt;br&gt;BL - Blown Save and Loss (pitcher record after game)&lt;br&gt;S - Save (pitcher saves thus far)&lt;br&gt;BSv - Blown Save (pitcher blown saves thus far)&lt;br&gt;H - Hold (pitcher holds thus far)" data-stat="player_game_result" scope="col" class=" poptip show_partial_when_sorting center" data-tip="&lt;strong&gt;Decision, Save, or Hold&lt;/strong&gt;&lt;br&gt;W - Win (pitcher record after game)&lt;br&gt;L - Loss (pitcher record after game)&lt;br&gt;BW - Blown Save and Win (pitcher record after game)&lt;br&gt;BL - Blown Save and Loss (pitcher record after game)&lt;br&gt;S - Save (pitcher saves thus far)&lt;br&gt;BSv - Blown Save (pitcher blown saves thus far)&lt;br&gt;H - Hold (pitcher holds thus far)" >Dec</th>
+         <th aria-label="&lt;strong&gt;Days Rest&lt;/strong&gt;&lt;br&gt;Number or days since their previous appearance&lt;br&gt;99 if start of season or 99 or more days (may include demotions)&lt;br&gt;-1 if pitching both games of double-header." data-stat="days_rest" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Days Rest&lt;/strong&gt;&lt;br&gt;Number or days since their previous appearance&lt;br&gt;99 if start of season or 99 or more days (may include demotions)&lt;br&gt;-1 if pitching both games of double-header." >DR</th>
+         <th aria-label="Innings Pitched" data-stat="IP" scope="col" class=" poptip center" data-tip="Innings Pitched" data-filter="1" data-name="Innings Pitched" >IP</th>
+         <th aria-label="Hits" data-stat="H" scope="col" class=" poptip center" data-tip="Hits/Hits Allowed" >H</th>
+         <th aria-label="Runs Scored" data-stat="R" scope="col" class=" poptip center" data-tip="Runs Scored/Allowed" >R</th>
+         <th aria-label="Earned Runs" data-stat="ER" scope="col" class=" poptip center" data-tip="Earned Runs Allowed" >ER</th>
+         <th aria-label="Bases on Balls" data-stat="BB" scope="col" class=" poptip center" data-tip="Bases on Balls/Walks" >BB</th>
+         <th aria-label="Strikeouts" data-stat="SO" scope="col" class=" poptip center" data-tip="Strikeouts" >SO</th>
+         <th aria-label="Home Runs" data-stat="HR" scope="col" class=" poptip center" data-tip="Home Runs Hit/Allowed" >HR</th>
+         <th aria-label="Hit By Pitch" data-stat="HBP" scope="col" class=" poptip center" data-tip="Times Hit by a Pitch." >HBP</th>
+         <th aria-label="Earned Run Average" data-stat="earned_run_avg" scope="col" class=" poptip sort_default_asc hide_non_quals center" data-tip="&lt;strong&gt;9 * ER / IP&lt;/strong&gt;&lt;br&gt;For recent years, leaders need 1 IP&lt;br&gt;per team game played.&lt;br&gt;Bold indicates lowest ERA using current stats&lt;br&gt;&lt;span class=glimmer&gt;Gold&lt;/span&gt; means awarded ERA title at end of year." data-filter="1" data-name="Earned Run Average" >ERA</th>
+         <th aria-label="Batters Faced" data-stat="batters_faced" scope="col" class=" poptip center" data-tip="Batters Faced" >BF</th>
+         <th aria-label="Number of pitches in the PA.&lt;br&gt;Click to see the pitch-by-pitch sequence." data-stat="pitches" scope="col" class=" poptip center" data-tip="Number of pitches in the PA.&lt;br&gt;Click to see the pitch-by-pitch sequence." >Pit</th>
+         <th aria-label="&lt;strong&gt;Strikes&lt;/strong&gt;&lt;br&gt;Includes both pitches in the zone and those swung at out of the zone." data-stat="strikes_total" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Strikes&lt;/strong&gt;&lt;br&gt;Includes both pitches in the zone and those swung at out of the zone." >Str</th>
+         <th aria-label="&lt;strong&gt;Strikes Looking&lt;/strong&gt;&lt;br&gt;Strikes called by the umpire." data-stat="strikes_looking" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Strikes Looking&lt;/strong&gt;&lt;br&gt;Strikes called by the umpire." >StL</th>
+         <th aria-label="&lt;strong&gt;Strikes Swinging&lt;/strong&gt;&lt;br&gt;Strikes due to a swing and a miss." data-stat="strikes_swinging" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Strikes Swinging&lt;/strong&gt;&lt;br&gt;Strikes due to a swing and a miss." >StS</th>
+         <th aria-label="&lt;strong&gt;Ground Balls&lt;/strong&gt;&lt;br&gt;Includes bunts and all other ground balls." data-stat="inplay_gb_total" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Ground Balls&lt;/strong&gt;&lt;br&gt;Includes bunts and all other ground balls." >GB</th>
+         <th aria-label="&lt;strong&gt;Fly Balls&lt;/strong&gt;&lt;br&gt;Includes Fly Balls, Line Drives, and Pop-Ups." data-stat="inplay_fb_total" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Fly Balls&lt;/strong&gt;&lt;br&gt;Includes Fly Balls, Line Drives, and Pop-Ups." >FB</th>
+         <th aria-label="&lt;strong&gt;Line Drives&lt;/strong&gt;&lt;br&gt;These are double-counted in Fly Balls as well." data-stat="inplay_ld" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Line Drives&lt;/strong&gt;&lt;br&gt;These are double-counted in Fly Balls as well." >LD</th>
+         <th aria-label="&lt;strong&gt;Pop Ups&lt;/strong&gt;&lt;br&gt;Generally, high fly balls that land within the infield circle.&lt;br&gt;These are double-counted in Fly Balls as well." data-stat="inplay_pu" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Pop Ups&lt;/strong&gt;&lt;br&gt;Generally, high fly balls that land within the infield circle.&lt;br&gt;These are double-counted in Fly Balls as well." >PU</th>
+         <th aria-label="&lt;strong&gt;Unknown batted ball type&lt;/strong&gt;&lt;br&gt;A ball in play for which we don&amp;#x2019;t know the type." data-stat="inplay_unk" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Unknown batted ball type&lt;/strong&gt;&lt;br&gt;A ball in play for which we don&amp;#x2019;t know the type." >Unk</th>
+         <th aria-label="&lt;strong&gt;Game Score&lt;/strong&gt;&lt;br&gt;Developed by Bill James&lt;br&gt;1. Start with 50 points.&lt;br&gt; 2. Add 1 point for each out recorded, so 3 points for every complete inning pitched.&lt;br&gt; 3. Add 2 points for each inning completed after the 4th.&lt;br&gt; 4. Add 1 point for each strikeout.&lt;br&gt; 5. Subtract 2 points for each hit allowed.&lt;br&gt; 6. Subtract 4 points for each earned run allowed.&lt;br&gt; 7. Subtract 2 points for each unearned run allowed.&lt;br&gt; 8. Subtract 1 point for each walk.&lt;br&gt;" data-stat="game_score" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Game Score&lt;/strong&gt;&lt;br&gt;Developed by Bill James&lt;br&gt;1. Start with 50 points.&lt;br&gt; 2. Add 1 point for each out recorded, so 3 points for every complete inning pitched.&lt;br&gt; 3. Add 2 points for each inning completed after the 4th.&lt;br&gt; 4. Add 1 point for each strikeout.&lt;br&gt; 5. Subtract 2 points for each hit allowed.&lt;br&gt; 6. Subtract 4 points for each earned run allowed.&lt;br&gt; 7. Subtract 2 points for each unearned run allowed.&lt;br&gt; 8. Subtract 1 point for each walk.&lt;br&gt;" >GSc</th>
+         <th aria-label="&lt;strong&gt;Inherited Runners&lt;/strong&gt;&lt;br&gt;Number of runners on base when pitcher entered the game." data-stat="inherited_runners" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Inherited Runners&lt;/strong&gt;&lt;br&gt;Number of runners on base when pitcher entered the game." >IR</th>
+         <th aria-label="&lt;strong&gt;Inherited Score&lt;/strong&gt;&lt;br&gt;Number or percentage of runners on base when pitcher entered the game who subsequently scored.&lt;br&gt;These runners show up in the previous pitcher&amp;#x2019;s ERA." data-stat="inherited_score" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Inherited Score&lt;/strong&gt;&lt;br&gt;Number or percentage of runners on base when pitcher entered the game who subsequently scored.&lt;br&gt;These runners show up in the previous pitcher&amp;#x2019;s ERA." >IS</th>
+         <th aria-label="Stolen Bases" data-stat="SB" scope="col" class=" poptip center" data-tip="Stolen Bases" >SB</th>
+         <th aria-label="Caught Stealing" data-stat="CS" scope="col" class=" poptip center" data-tip="Caught Stealing" >CS</th>
+         <th aria-label="Pickoffs" data-stat="pickoffs" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Pickoffs&lt;/strong&gt;&lt;br&gt;Runner picked off a base. May include cases they were safe on an error. &lt;br&gt;Also includes Pickoff Caught Stealing plays." >PO</th>
+         <th aria-label="At Bats" data-stat="AB" scope="col" class=" poptip center" data-tip="At Bats" >AB</th>
+         <th aria-label="Doubles" data-stat="2B" scope="col" class=" poptip center" data-tip="Doubles Hit/Allowed" >2B</th>
+         <th aria-label="Triples" data-stat="3B" scope="col" class=" poptip center" data-tip="Triples Hit/Allowed" >3B</th>
+         <th aria-label="Intentional Bases on Balls" data-stat="IBB" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Intentional Bases on Balls&lt;/strong&gt;&lt;br&gt;First tracked in 1955." >IBB</th>
+         <th aria-label="Double Plays Grounded Into" data-stat="GIDP" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Double Plays Grounded Into&lt;/strong&gt;&lt;br&gt;Only includes standard 6-4-3, 4-3, etc. double plays.&lt;br&gt;First tracked in 1933.&lt;br&gt;For gamelogs only in seasons we have play-by-play, we include triple plays as well.&lt;br&gt;All official seasonal totals do not include GITP&#39;s." >GDP</th>
+         <th aria-label="Sacrifice Flies" data-stat="SF" scope="col" class=" poptip center" data-tip="<strong>Sacrifice Flies</strong><br>First tracked in 1954." >SF</th>
+         <th aria-label="&lt;strong&gt;Reached On Error&lt;/strong&gt;&lt;br&gt;Times a batter reached due to an error&lt;br&gt;DOES NOT include a fielder&amp;#x2019;s choice where no out was recorded." data-stat="ROE" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Reached On Error&lt;/strong&gt;&lt;br&gt;Times a batter reached due to an error&lt;br&gt;DOES NOT include a fielder&amp;#x2019;s choice where no out was recorded." >ROE</th>
+         <th aria-label="&lt;strong&gt;Average Leverage Index&lt;/strong&gt;&lt;br&gt;The average pressure the pitcher or batter saw in this game or season.&lt;br&gt;1.0 is average pressure, below 1.0 is low pressure and above 1.0 is high pressure." data-stat="leverage_index_avg" scope="col" class=" poptip hide_non_quals center" data-tip="&lt;strong&gt;Average Leverage Index&lt;/strong&gt;&lt;br&gt;The average pressure the pitcher or batter saw in this game or season.&lt;br&gt;1.0 is average pressure, below 1.0 is low pressure and above 1.0 is high pressure." data-filter="1" data-name="&lt;strong&gt;Average Leverage Index&lt;/strong&gt;&lt;br&gt;The average pressure the pitcher or batter saw in this game or season.&lt;br&gt;1.0 is average pressure, below 1.0 is low pressure and above 1.0 is high pressure." >aLI</th>
+         <th aria-label="Win Probability Added (WPA)" data-stat="wpa_def" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Win Probability Added by Pitcher&lt;/strong&gt;&lt;br&gt;Given average teams, this is the change in probability&lt;br&gt;A change of +/- 1 would indicate one win added or lost." data-filter="1" data-name="Win Probability Added (WPA)" >WPA</th>
+         <th aria-label="Base-Out Runs Saved (RE24)" data-stat="re24_def" scope="col" class=" poptip center" data-tip="&lt;strong&gt;Base-Out Runs Saved&lt;/strong&gt;&lt;br&gt;Given the bases occupied/out situation, how many runs did the pitcher&lt;br&gt;save in the resulting play. Compared to average, so 0 is average, and&lt;br&gt;above 0 is better than average" data-filter="1" data-name="Base-Out Runs Saved (RE24)" >RE24</th>
+         <th aria-label="&lt;strong&gt;Daily Fantasy Sports Points (DraftKings)&lt;/strong&gt;" data-stat="draftkings_points" scope="col" class=" poptip sort_default_asc center" data-tip="&lt;strong&gt;Daily Fantasy Sports Points (DraftKings)&lt;/strong&gt;" >DFS(DK)</th>
+         <th aria-label="&lt;strong&gt;Daily Fantasy Sports Points (FanDuel)&lt;/strong&gt;" data-stat="fanduel_points" scope="col" class=" poptip sort_default_asc center" data-tip="&lt;strong&gt;Daily Fantasy Sports Points (FanDuel)&lt;/strong&gt;" >DFS(FD)</th>
+         <th aria-label="&lt;strong&gt;The situation when pitcher entered game&lt;/strong&gt;&lt;br&gt;Inning &lt;strong&gt;t&lt;/strong&gt;op or &lt;strong&gt;b&lt;/strong&gt;ottom: 8b (bottom of 8th)&lt;br&gt;bases occupied or &lt;strong&gt;start&lt;/strong&gt; of inning: &amp;#x2019;---&amp;#x2019; (bases empty)&lt;br&gt;score from pitching team&amp;#x2019;s perspective&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;a&lt;/strong&gt;head/&lt;strong&gt;d&lt;/strong&gt;own and runs or &lt;strong&gt;tie&lt;/strong&gt;: a4 (ahead by 4 runs)" data-stat="pitcher_situation_in" scope="col" class=" poptip center" data-tip="&lt;strong&gt;The situation when pitcher entered game&lt;/strong&gt;&lt;br&gt;Inning &lt;strong&gt;t&lt;/strong&gt;op or &lt;strong&gt;b&lt;/strong&gt;ottom: 8b (bottom of 8th)&lt;br&gt;bases occupied or &lt;strong&gt;start&lt;/strong&gt; of inning: &amp;#x2019;---&amp;#x2019; (bases empty)&lt;br&gt;score from pitching team&amp;#x2019;s perspective&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;a&lt;/strong&gt;head/&lt;strong&gt;d&lt;/strong&gt;own and runs or &lt;strong&gt;tie&lt;/strong&gt;: a4 (ahead by 4 runs)" >Entered</th>
+         <th aria-label="&lt;strong&gt;The situation when pitcher exited game&lt;/strong&gt;&lt;br&gt;Inning &lt;strong&gt;t&lt;/strong&gt;op or &lt;strong&gt;b&lt;/strong&gt;ottom: 4t (top of 4th)&lt;br&gt;bases occupied, &lt;strong&gt;3 outs&lt;/strong&gt;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; or &lt;strong&gt;end&lt;/strong&gt; of game: &amp;#x2019;123&amp;#x2019; (bases loaded)&lt;br&gt;score from pitching team&amp;#x2019;s perspective&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;a&lt;/strong&gt;head/&lt;strong&gt;d&lt;/strong&gt;own and runs or &lt;strong&gt;tie&lt;/strong&gt;: d2 (down by 2 runs)" data-stat="pitcher_situation_out" scope="col" class=" poptip center" data-tip="&lt;strong&gt;The situation when pitcher exited game&lt;/strong&gt;&lt;br&gt;Inning &lt;strong&gt;t&lt;/strong&gt;op or &lt;strong&gt;b&lt;/strong&gt;ottom: 4t (top of 4th)&lt;br&gt;bases occupied, &lt;strong&gt;3 outs&lt;/strong&gt;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; or &lt;strong&gt;end&lt;/strong&gt; of game: &amp;#x2019;123&amp;#x2019; (bases loaded)&lt;br&gt;score from pitching team&amp;#x2019;s perspective&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;a&lt;/strong&gt;head/&lt;strong&gt;d&lt;/strong&gt;own and runs or &lt;strong&gt;tie&lt;/strong&gt;: d2 (down by 2 runs)" >Exited</th>
+      </tr>
+      
+   </thead>
+   <tbody>
+<tr id="pitching_gamelogs.140" ><th scope="row" class="right " data-stat="ranker" >1</th><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=140&level=career&type=pitch" data-stat="career_game_num" >140</td><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=140&level=season&type=pitch" data-stat="team_game_num" csk="1" >1</td><td class="left " data-stat="date_game" csk="2018-03-29.ARI201803290" ><a href="/boxes/ARI/ARI201803290.shtml">Mar&nbsp;29</a></td><td class="left " data-stat="team_ID" ><a href="/teams/ARI/2018.shtml">ARI</a></td><td class="right " data-stat="team_homeORaway" ></td><td class="left " data-stat="opp_ID" ><a href="/teams/COL/2018.shtml">COL</a></td><td class="left " data-stat="game_result" csk="6" >W,8-2</td><td class="left " data-stat="player_game_span" csk="45.2" >GS-6</td><td class="left " data-stat="player_game_result" csk="9.999" >W(1-0)</td><td class="right " data-stat="days_rest" >99</td><td class="right endpoint" data-endpoint="/play-index/pe.cgi?html=1&date_out=1&game-id=ARI201803290-corbipa01" data-stat="IP" >5.2</td><td class="right " data-stat="H" >7</td><td class="right " data-stat="R" >2</td><td class="right " data-stat="ER" >2</td><td class="right " data-stat="BB" >1</td><td class="right " data-stat="SO" >8</td><td class="right " data-stat="HR" >2</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >3.18</td><td class="right " data-stat="batters_faced" >24</td><td class="right " data-stat="pitches" ><a href="http://brooksbaseball.net/pfx/index.php?s_type=3&amp;sp_type=1&amp;batterX=0&amp;year=2018&amp;month=3&amp;day=29&amp;pitchSel=571578.xml&amp;game=gid_2018_03_29_colmlb_arimlb_1%2f&amp;prevGame=gid_2018_03_29_colmlb_arimlb_1%2f" title="Pitch F/X Detail Data from BrooksBaseball.com">93</a></td><td class="right " data-stat="strikes_total" >58</td><td class="right " data-stat="strikes_looking" >15</td><td class="right " data-stat="strikes_swinging" >15</td><td class="right " data-stat="inplay_gb_total" >9</td><td class="right " data-stat="inplay_fb_total" >6</td><td class="right " data-stat="inplay_ld" >3</td><td class="right " data-stat="inplay_pu" >0</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >54</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" ></td><td class="right " data-stat="SB" >0</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >22</td><td class="right " data-stat="2B" >0</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >1</td><td class="right " data-stat="SF" >0</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >1.09</td><td class="right " data-stat="wpa_def" >0.117</td><td class="right " data-stat="re24_def" >1.16</td><td class="right " data-stat="draftkings_points" >23.95</td><td class="right " data-stat="fanduel_points" >47.00</td><td class="left " data-stat="pitcher_situation_in" csk="0" > 1t start tie</td><td class="left " data-stat="pitcher_situation_out" csk="32" > 6t 1-- 2 out a1</td></tr>
+<tr id="pitching_gamelogs.141" ><th scope="row" class="right " data-stat="ranker" >2</th><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=141&level=career&type=pitch" data-stat="career_game_num" >141</td><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=141&level=season&type=pitch" data-stat="team_game_num" csk="6" >6</td><td class="left " data-stat="date_game" csk="2018-04-04.ARI201804040" ><a href="/boxes/ARI/ARI201804040.shtml">Apr&nbsp;4</a></td><td class="left " data-stat="team_ID" ><a href="/teams/ARI/2018.shtml">ARI</a></td><td class="right " data-stat="team_homeORaway" ></td><td class="left " data-stat="opp_ID" ><a href="/teams/LAD/2018.shtml">LAD</a></td><td class="left " data-stat="game_result" csk="3" >W,3-0</td><td class="left " data-stat="player_game_span" csk="57.3" >GS-8</td><td class="left " data-stat="player_game_result" csk="9.998" >W(2-0)</td><td class="right " data-stat="days_rest" >5</td><td class="right endpoint" data-endpoint="/play-index/pe.cgi?html=1&date_out=1&game-id=ARI201804040-corbipa01" data-stat="IP" >7.1</td><td class="right " data-stat="H" >1</td><td class="right " data-stat="R" >0</td><td class="right " data-stat="ER" >0</td><td class="right " data-stat="BB" >1</td><td class="right " data-stat="SO" >12</td><td class="right " data-stat="HR" >0</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >1.38</td><td class="right " data-stat="batters_faced" >24</td><td class="right " data-stat="pitches" ><a href="http://brooksbaseball.net/pfx/index.php?s_type=3&amp;sp_type=1&amp;batterX=0&amp;year=2018&amp;month=4&amp;day=4&amp;pitchSel=571578.xml&amp;game=gid_2018_04_04_lanmlb_arimlb_1%2f&amp;prevGame=gid_2018_04_04_lanmlb_arimlb_1%2f" title="Pitch F/X Detail Data from BrooksBaseball.com">98</a></td><td class="right " data-stat="strikes_total" >62</td><td class="right " data-stat="strikes_looking" >20</td><td class="right " data-stat="strikes_swinging" >20</td><td class="right " data-stat="inplay_gb_total" >7</td><td class="right " data-stat="inplay_fb_total" >4</td><td class="right " data-stat="inplay_ld" >1</td><td class="right " data-stat="inplay_pu" >0</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >87</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" ></td><td class="right " data-stat="SB" >0</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >23</td><td class="right " data-stat="2B" >1</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >0</td><td class="right " data-stat="SF" >0</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >.69</td><td class="right " data-stat="wpa_def" >0.368</td><td class="right " data-stat="re24_def" >3.97</td><td class="right " data-stat="draftkings_points" >43.30</td><td class="right " data-stat="fanduel_points" >70.00</td><td class="left " data-stat="pitcher_situation_in" csk="0" > 1t start tie</td><td class="left " data-stat="pitcher_situation_out" csk="43" > 8t 1-- 1 out a3</td></tr>
+<tr id="pitching_gamelogs.142" ><th scope="row" class="right " data-stat="ranker" >3</th><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=142&level=career&type=pitch" data-stat="career_game_num" >142</td><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=142&level=season&type=pitch" data-stat="team_game_num" csk="11" >11</td><td class="left " data-stat="date_game" csk="2018-04-10.SFN201804100" ><a href="/boxes/SFN/SFN201804100.shtml">Apr&nbsp;10</a></td><td class="left " data-stat="team_ID" ><a href="/teams/ARI/2018.shtml">ARI</a></td><td class="right " data-stat="team_homeORaway" >@</td><td class="left " data-stat="opp_ID" ><a href="/teams/SFG/2018.shtml">SFG</a></td><td class="left " data-stat="game_result" csk="-1" >L,4-5</td><td class="left " data-stat="player_game_span" csk="44.4" >GS-6</td><td class="left " data-stat="player_game_result" ></td><td class="right " data-stat="days_rest" >5</td><td class="right endpoint" data-endpoint="/play-index/pe.cgi?html=1&date_out=1&game-id=SFN201804100-corbipa01" data-stat="IP" >5.1</td><td class="right " data-stat="H" >5</td><td class="right " data-stat="R" >3</td><td class="right " data-stat="ER" >3</td><td class="right " data-stat="BB" >2</td><td class="right " data-stat="SO" >9</td><td class="right " data-stat="HR" >0</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >2.45</td><td class="right " data-stat="batters_faced" >23</td><td class="right " data-stat="pitches" ><a href="http://brooksbaseball.net/pfx/index.php?s_type=3&amp;sp_type=1&amp;batterX=0&amp;year=2018&amp;month=4&amp;day=10&amp;pitchSel=571578.xml&amp;game=gid_2018_04_10_arimlb_sfnmlb_1%2f&amp;prevGame=gid_2018_04_10_arimlb_sfnmlb_1%2f" title="Pitch F/X Detail Data from BrooksBaseball.com">89</a></td><td class="right " data-stat="strikes_total" >56</td><td class="right " data-stat="strikes_looking" >14</td><td class="right " data-stat="strikes_swinging" >16</td><td class="right " data-stat="inplay_gb_total" >8</td><td class="right " data-stat="inplay_fb_total" >4</td><td class="right " data-stat="inplay_ld" >3</td><td class="right " data-stat="inplay_pu" >0</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >53</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" ></td><td class="right " data-stat="SB" >2</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >20</td><td class="right " data-stat="2B" >0</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >0</td><td class="right " data-stat="SF" >1</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >1.42</td><td class="right " data-stat="wpa_def" >-0.172</td><td class="right " data-stat="re24_def" >-0.60</td><td class="right " data-stat="draftkings_points" >19.80</td><td class="right " data-stat="fanduel_points" >34.00</td><td class="left " data-stat="pitcher_situation_in" csk="3" > 1b start a 2</td><td class="left " data-stat="pitcher_situation_out" csk="34" > 6b 123 1 out tie</td></tr>
+<tr id="pitching_gamelogs.143" ><th scope="row" class="right " data-stat="ranker" >4</th><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=143&level=career&type=pitch" data-stat="career_game_num" >143</td><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=143&level=season&type=pitch" data-stat="team_game_num" csk="16" >16</td><td class="left " data-stat="date_game" csk="2018-04-17.ARI201804170" ><a href="/boxes/ARI/ARI201804170.shtml">Apr&nbsp;17</a></td><td class="left " data-stat="team_ID" ><a href="/teams/ARI/2018.shtml">ARI</a></td><td class="right " data-stat="team_homeORaway" ></td><td class="left " data-stat="opp_ID" ><a href="/teams/SFG/2018.shtml">SFG</a></td><td class="left " data-stat="game_result" csk="1" >W,1-0</td><td class="left " data-stat="player_game_span" csk="86.1" >SHO</td><td class="left " data-stat="player_game_result" csk="9.997" >W(3-0)</td><td class="right " data-stat="days_rest" >6</td><td class="right endpoint" data-endpoint="/play-index/pe.cgi?html=1&date_out=1&game-id=ARI201804170-corbipa01" data-stat="IP" >9.0</td><td class="right " data-stat="H" >1</td><td class="right " data-stat="R" >0</td><td class="right " data-stat="ER" >0</td><td class="right " data-stat="BB" >1</td><td class="right " data-stat="SO" >8</td><td class="right " data-stat="HR" >0</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >1.65</td><td class="right " data-stat="batters_faced" >29</td><td class="right " data-stat="pitches" ><a href="http://brooksbaseball.net/pfx/index.php?s_type=3&amp;sp_type=1&amp;batterX=0&amp;year=2018&amp;month=4&amp;day=17&amp;pitchSel=571578.xml&amp;game=gid_2018_04_17_sfnmlb_arimlb_1%2f&amp;prevGame=gid_2018_04_17_sfnmlb_arimlb_1%2f" title="Pitch F/X Detail Data from BrooksBaseball.com">100</a></td><td class="right " data-stat="strikes_total" >68</td><td class="right " data-stat="strikes_looking" >21</td><td class="right " data-stat="strikes_swinging" >18</td><td class="right " data-stat="inplay_gb_total" >9</td><td class="right " data-stat="inplay_fb_total" >11</td><td class="right " data-stat="inplay_ld" >4</td><td class="right " data-stat="inplay_pu" >1</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >92</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" ></td><td class="right " data-stat="SB" >0</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >28</td><td class="right " data-stat="2B" >0</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >0</td><td class="right " data-stat="SF" >0</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >1.12</td><td class="right " data-stat="wpa_def" >0.760</td><td class="right " data-stat="re24_def" >5.12</td><td class="right " data-stat="draftkings_points" >44.05</td><td class="right " data-stat="fanduel_points" >63.00</td><td class="left " data-stat="pitcher_situation_in" csk="0" > 1t start tie</td><td class="left " data-stat="pitcher_situation_out" csk="51" > 9t 3 out a1</td></tr>
+<tr id="pitching_gamelogs.144" ><th scope="row" class="right " data-stat="ranker" >5</th><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=144&level=career&type=pitch" data-stat="career_game_num" >144</td><td class="right endpoint" data-endpoint="/play-index/cumStats.cgi?html=1&player=corbipa01&year=2018&cgame=144&level=season&type=pitch" data-stat="team_game_num" csk="21" >21</td><td class="left " data-stat="date_game" csk="2018-04-22.ARI201804220" ><a href="/boxes/ARI/ARI201804220.shtml">Apr&nbsp;22</a></td><td class="left " data-stat="team_ID" ><a href="/teams/ARI/2018.shtml">ARI</a></td><td class="right " data-stat="team_homeORaway" ></td><td class="left " data-stat="opp_ID" ><a href="/teams/SDP/2018.shtml">SDP</a></td><td class="left " data-stat="game_result" csk="2" >W,4-2</td><td class="left " data-stat="player_game_span" csk="46.3" >GS-6</td><td class="left " data-stat="player_game_result" csk="9.996" >W(4-0)</td><td class="right " data-stat="days_rest" >4</td><td class="right endpoint" data-endpoint="/play-index/pe.cgi?html=1&date_out=1&game-id=ARI201804220-corbipa01" data-stat="IP" >6.0</td><td class="right " data-stat="H" >2</td><td class="right " data-stat="R" >2</td><td class="right " data-stat="ER" >2</td><td class="right " data-stat="BB" >1</td><td class="right " data-stat="SO" >11</td><td class="right " data-stat="HR" >1</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >1.89</td><td class="right " data-stat="batters_faced" >22</td><td class="right " data-stat="pitches" ><a href="http://brooksbaseball.net/pfx/index.php?s_type=3&amp;sp_type=1&amp;batterX=0&amp;year=2018&amp;month=4&amp;day=22&amp;pitchSel=571578.xml&amp;game=gid_2018_04_22_sdnmlb_arimlb_1%2f&amp;prevGame=gid_2018_04_22_sdnmlb_arimlb_1%2f" title="Pitch F/X Detail Data from BrooksBaseball.com">100</a></td><td class="right " data-stat="strikes_total" >65</td><td class="right " data-stat="strikes_looking" >15</td><td class="right " data-stat="strikes_swinging" >21</td><td class="right " data-stat="inplay_gb_total" >4</td><td class="right " data-stat="inplay_fb_total" >6</td><td class="right " data-stat="inplay_ld" >4</td><td class="right " data-stat="inplay_pu" >0</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >70</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" ></td><td class="right " data-stat="SB" >0</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >21</td><td class="right " data-stat="2B" >0</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >0</td><td class="right " data-stat="SF" >0</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >.79</td><td class="right " data-stat="wpa_def" >0.193</td><td class="right " data-stat="re24_def" >1.42</td><td class="right " data-stat="draftkings_points" >33.70</td><td class="right " data-stat="fanduel_points" >57.00</td><td class="left " data-stat="pitcher_situation_in" csk="0" > 1t start tie</td><td class="left " data-stat="pitcher_situation_out" csk="33" > 6t 3 out a2</td></tr>
+
+   </tbody>
+   <tfoot><tr ><th scope="row" class="right " data-stat="ranker" ></th><td class="right " data-stat="career_game_num" ></td><td class="right " data-stat="team_game_num" ></td><td class="left " data-stat="date_game" ></td><td class="left " data-stat="team_ID" ></td><td class="right " data-stat="team_homeORaway" ></td><td class="left " data-stat="opp_ID" ></td><td class="left " data-stat="game_result" >4-1</td><td class="left " data-stat="player_game_span" ></td><td class="left " data-stat="player_game_result" >W-L:4-0</td><td class="right " data-stat="days_rest" >5.0</td><td class="right " data-stat="IP" >33.1</td><td class="right " data-stat="H" >16</td><td class="right " data-stat="R" >7</td><td class="right " data-stat="ER" >7</td><td class="right " data-stat="BB" >6</td><td class="right " data-stat="SO" >48</td><td class="right " data-stat="HR" >3</td><td class="right " data-stat="HBP" >0</td><td class="right " data-stat="earned_run_avg" >1.89</td><td class="right " data-stat="batters_faced" >122</td><td class="right " data-stat="pitches" >480</td><td class="right " data-stat="strikes_total" >64%</td><td class="right " data-stat="strikes_looking" >18%</td><td class="right " data-stat="strikes_swinging" >19%</td><td class="right " data-stat="inplay_gb_total" >1.19</td><td class="right " data-stat="inplay_fb_total" ></td><td class="right " data-stat="inplay_ld" >22%</td><td class="right " data-stat="inplay_pu" >1%</td><td class="right " data-stat="inplay_unk" >0</td><td class="right " data-stat="game_score" >71</td><td class="right " data-stat="inherited_runners" ></td><td class="right " data-stat="inherited_score" >---%</td><td class="right " data-stat="SB" >2</td><td class="right " data-stat="CS" >0</td><td class="right " data-stat="pickoffs" >0</td><td class="right " data-stat="AB" >114</td><td class="right " data-stat="2B" >1</td><td class="right " data-stat="3B" >0</td><td class="right " data-stat="IBB" >0</td><td class="right " data-stat="GIDP" >1</td><td class="right " data-stat="SF" >1</td><td class="right " data-stat="ROE" >0</td><td class="right " data-stat="leverage_index_avg" >1.03</td><td class="right " data-stat="wpa_def" >1.266</td><td class="right " data-stat="re24_def" >11.07</td><td class="right " data-stat="draftkings_points" >164.80</td><td class="right " data-stat="fanduel_points" >271.00</td><td class="left " data-stat="pitcher_situation_in" ></td><td class="left " data-stat="pitcher_situation_out" ></td></tr>
+
+   </tfoot>
+
+</table>
+
+      </div>
+   </div>
+  <div class="placeholder"></div>
+  
+</div>
+
+            
+            
+         
+      
+         
+            <div class="section_wrapper setup_commented commented" id="all_rowsum_tricks">
+<div class="section_heading">
+  <span class="section_anchor" id="rowsum_tricks_link" data-label="Player Page Tricks and Tips"></span>
+    <h2>Player Page Tricks and Tips</h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>		
+</div><div class="placeholder"></div>
+<!--  
+    <div class="section_content" id="div_rowsum_tricks">
+    <a name="rowsum_desc"></a>
+    Sum any set of rows by clicking anywhere (not red or blue) on the
+    first and last rows of your selection. We will then compute the
+    totals for the player between and including those two seasons.
+    <br>
+    <br>
+
+    Summation of season totals only works for the initial case when the table
+    is in year order.  On a sorted table the results may get a bit
+    goofy.
+    <br>
+    <br>
+
+    HIGHLIGHTING: Adding a range or series of player's career
+    seasons or career game numbers (like
+    '<a href="/players/a/aaronha01.shtml#1972:batting_standard">#1972:batting_standard</a>',
+    '<a href="/players/r/rosepe01.shtml#1970-1980-sum:batting_standard">#1970-1980-sum:batting_standard</a>', or
+    '<a href="/players/m/martipe02.shtml#1998,1999,2001,2002,sum:pitching_standard">#1998,1999,2001,2002,sum:pitching_standard</a>')
+
+    onto the end of a player page url causes the seasons to the
+    highlighted and summed. After changing address bar, reload the page to
+    see highlighting.  This will work even in links e-mailed to others.
+    Note that for tables with multiple pages the first table is the
+    default.  If you want to create a sum for a table other than the first
+    one, select the rows and after the summation window appears click on
+    "permanent link" link.
+
+    </div>
+
+-->  
+</div>
+
+            
+            
+         
+      
+<!-- global.nonempty_tables_num: 2, table_count: 2 -->
+<div id="bottom_nav" class="section_wrapper commented">
+<div class="section_heading"><span data-no-inpage="1" class="section_anchor" id="inner_nav_bottom_link" data-label="More Corbin Pages"></span><h2>More Corbin Pages</h2></div>
+<button id="bottom_nav_button" class="comment_control opener" data-type="hide_after" data-class="commented" data-id="bottom_nav">More Corbin Pages</button>
+<div class="section_content" id="bottom_nav_container">
+        <section>
+          <p><a href="/register/player.fcgi?id=corbin001pat">Minor Lg Stats</a></p>        </section><p class="listhead">Pitching Splits</p>
+        <ul class="">
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=p">Career</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=p">2012</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=p">2013</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=p">2015</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=p">2016</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=p">2017</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=p">2018</a></li>
+        </ul><p class="listhead">Batting Splits</p>
+        <ul class="">
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=Career&amp;t=b">Career</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2012&amp;t=b">2012</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2013&amp;t=b">2013</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2015&amp;t=b">2015</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2016&amp;t=b">2016</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2017&amp;t=b">2017</a></li>
+          <li><a href="/players/split.fcgi?id=corbipa01&amp;year=2018&amp;t=b">2018</a></li>
+        </ul><p class="listhead">Pitching Game Logs</p>
+        <ul class="">
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2012">2012</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2013">2013</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2015">2015</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2016">2016</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2017">2017</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=p&amp;year=2018">2018</a></li>
+        </ul><p class="listhead">Batting Game Logs</p>
+        <ul class="">
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2012">2012</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2013">2013</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2015">2015</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2016">2016</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2017">2017</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=b&amp;year=2018">2018</a></li>
+        </ul><p class="listhead">Fielding Game Logs</p>
+        <ul class="">
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2012">2012</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2013">2013</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2015">2015</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2016">2016</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2017">2017</a></li>
+          <li><a href="/players/gl.fcgi?id=corbipa01&amp;t=f&amp;year=2018">2018</a></li>
+        </ul><p class="listhead">Pitching Finders & Advanced Stats</p>
+        <ul class="">
+          <li><a href="/players/c/corbipa01-pitch.shtml">Advanced Stats</a></li>
+          <li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=p">Home Run Log</a></li>
+          <li><a href="/play-index/game_finder.cgi?type=p&amp;id=corbipa01">Game Finder</a></li>
+          <li><a href="/play-index/streak_finder.cgi?type=p&amp;id=corbipa01">Streak Finder</a></li>
+          <li><a href="/play-index/event_finder.cgi?type=p&amp;id=corbipa01">Event Finder</a></li>
+          <li><a href="/play-index/batter_vs_pitcher.cgi?pitcher=corbipa01">vs. Batter</a></li>
+          <li><a href="/play-index/player-comparison.cgi?sum=1&type=p&player_id_1=corbipa01">Pitcher Comparison</a></li>
+        </ul><p class="listhead">Batting Finders & Advanced Stats</p>
+        <ul class="">
+          <li><a href="/players/c/corbipa01-bat.shtml">Advanced Stats</a></li>
+          <li><a href="/players/event_hr.fcgi?id=corbipa01&amp;t=b">Home Run Log</a></li>
+          <li><a href="/play-index/game_finder.cgi?type=b&amp;id=corbipa01">Game Finder</a></li>
+          <li><a href="/play-index/streak_finder.cgi?type=b&amp;id=corbipa01">Streak Finder</a></li>
+          <li><a href="/play-index/event_finder.cgi?type=b&amp;id=corbipa01">Event Finder</a></li>
+          <li><a href="/play-index/batter_vs_pitcher.cgi?batter=corbipa01">vs. Pitcher</a></li>
+          <li><a href="/play-index/player-comparison.cgi?sum=1&type=b&player_id_1=corbipa01">Batter Comparison</a></li>
+        </ul><p class="listhead">Fielding Finders & Advanced Stats</p>
+        <ul class="">
+          <li><a href="/players/c/corbipa01-field.shtml">Advanced Stats</a></li>
+        </ul><p class="listhead">More Patrick Corbin Pages at Baseball Reference</p>
+        <ul class="">
+          <li><a href="/oracle/at-distance.cgi?d=1&amp;n1=corbipa01">Oracle</a></li>
+          <li><a href="/bullpen/Patrick_Corbin">Patrick Corbin page at the Bullpen Wiki</a></li>
+        </ul>
+</div>
+</div>
+
+   
+
+<!-- fs_footer -->
+<div class="adblock">
+<div><a href="/my/?do=ad_free_browsing">Support us without the ads? Go Ad-Free.</a></div>
+<!-- div#fs_fs_footer  -->
+<div align="center" id="div-gpt-ad-728x90-Footer">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-Footer');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-Footer'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_footer -->
+
+</div>
+
+
+
+
+</div><!-- div#content -->
+<div id="footer" role="contentinfo">
+	<div id="footer_header">
+		 <ul class="bullets-inline"><li class="user logged_in">Welcome<span class="username"></span>&nbsp;&#183;&nbsp;<a href="/my/">Your Account</a></li>
+<li class="user logged_in"><a class="logout" href="/my/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" href="/my/">Login</a></li>
+<li class="user not_logged_in"><a href="/my/">Create Account</a></li>
+<li><a href="/my/?do=ad_free_browsing">Surf AD-FREE</a></li>
+</ul>
+		 <div class="breadcrumbs" itemscope itemtype="https://schema.org/Other">You are here: <span><a href="/">BR Home</a></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/players/"><span itemprop="name">Players</span></a> <meta itemprop="position" content="1" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/players/c/corbipa01.shtml"><span itemprop="name">Patrick Corbin</span></a> <meta itemprop="position" content="2" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><strong><span itemprop="name">2018 Pitching Game Logs</span></strong> <meta itemprop="position" content="3" /></span></div>
+	</div><!-- div#footer_header -->
+	<div id="site_menu" role="navigation" aria-label="complete site index">
+		
+<div class="section_heading">
+  <span class="section_anchor" id="site_menu_link" data-label="Full Site Menu"></span>
+    <h2>Full Site Menu</h2>    <div class="section_heading_text">
+      <ul> <li><a data-scroll href="#header">Return to Top</a></li>
+      </ul>
+    </div>		
+</div>
+		<ul>
+	<li><a href="/players/">MLB Players</a>
+	<div>Current Greats: <a href="/players/k/kershcl01.shtml">Clayton Kershaw</a>, 
+<a href="/players/h/harpebr03.shtml">Bryce Harper</a>, 
+<a href="/players/t/troutmi01.shtml">Mike Trout</a>, 
+<a href="/players/a/arrieja01.shtml">Jake Arrieta</a>, 
+<a href="/players/c/cabremi01.shtml">Miguel Cabrera</a>, 
+<a href="/players/g/greinza01.shtml">Zack Greinke</a>, 
+<a href="/players/a/altuvjo01.shtml">Jose Altuve</a>,
+...   </div>
+
+	<div>All-Time Greats:  
+<a href="/players/m/musiast01.shtml">Stan Musial</a>, 
+<a href="/players/b/bondsba01.shtml">Barry Bonds</a>, 
+<a href="/players/r/ruthba01.shtml">Babe Ruth</a>, 
+<a href="/players/j/jeterde01.shtml">Derek Jeter</a>, 
+<a href="/players/g/griffke02.shtml">Ken Griffey Jr</a>, 
+<a href="/players/r/robinja02.shtml">Jackie Robinson</a>, 
+<a href="/players/a/aaronha01.shtml">Hank Aaron</a>, ...</div>
+</li>
+
+
+	 <li><a href="/teams/">MLB Teams</a>
+	 	<div class="division"><strong>NL East</strong>:
+<a href="/teams/ATL/">Atlanta Braves</a>, 
+<a href="/teams/FLA/">Miami Marlins</a>, 
+<a href="/teams/NYM/">New York Mets</a>, 
+<a href="/teams/PHI/">Philadelphia Phillies</a>, 
+<a href="/teams/WSN/">Washington Nationals</a>
+		</div>	
+	 	<div class="division"><strong>NL Central</strong>:
+<a href="/teams/CHC/">Chicago Cubs</a>, 
+<a href="/teams/CIN/">Cincinnati Reds</a>, 
+<a href="/teams/MIL/">Milwaukee Brewers</a>, 
+<a href="/teams/PIT/">Pittsburgh Pirates</a>, 
+<a href="/teams/STL/">St. Louis Cardinals</a>
+		</div>	
+	 	<div class="division"><strong>NL West</strong>:
+<a href="/teams/ARI/">Arizona Diamondbacks</a>, 
+<a href="/teams/COL/">Colorado Rockies</a>, 
+<a href="/teams/LAD/">Los Angeles Dodgers </a>, 
+<a href="/teams/SDP/">San Diego Padres</a>, 
+<a href="/teams/SFG/">San Francisco Giants</a>
+		</div>	
+	 	<div class="division"><strong>AL East</strong>:
+<a href="/teams/BAL/">Baltimore Orioles</a>, 
+<a href="/teams/BOS/">Boston Red Sox</a>, 
+<a href="/teams/NYY/">New York Yankees</a>, 
+<a href="/teams/TBR/">Tampa Bay Rays</a>, 
+<a href="/teams/TOR/">Toronto Blue Jays</a>
+		</div>	
+	 	<div class="division"><strong>AL Central</strong>:
+<a href="/teams/CHW/">Chicago White Sox</a>, 
+<a href="/teams/CLE/">Cleveland Indians</a>, 
+<a href="/teams/DET/">Detroit Tigers</a>, 
+<a href="/teams/KCR/">Kansas City Royals</a>, 
+<a href="/teams/MIN/">Minnesota Twins</a>
+		</div>	
+	 	<div class="division"><strong>AL West</strong>:
+<a href="/teams/HOU/">Houston Astros</a>, 
+<a href="/teams/LAA/">Los Angeles Angels</a>, 
+<a href="/teams/OAK/">Oakland Athletics</a>, 
+<a href="/teams/SEA/">Seattle Mariners</a>, 
+<a href="/teams/TEX/">Texas Rangers</a>
+		</div>	
+	 </li>
+
+<li><a href="/leagues/">Seasons</a>
+	     <div><a href="/leagues/MLB/2018.shtml">2018</a>,
+	     <a href="/leagues/MLB/2017.shtml">2017</a>,
+	     <a href="/leagues/MLB/2018-standard-pitching.shtml">2018 MLB Pitching</a>,
+	     <a href="/leagues/MLB/2018-standard-batting.shtml">2018 MLB Batting</a>,
+	     <a href="/leagues/MLB/2018-standings.shtml">2018 MLB Standings</a>,
+	     <a href="/leagues/MLB/2018-misc.shtml">2018 MLB Attendance</a>,
+	     <a href="/leagues/MLB/2018-rookies.shtml">2018 MLB Rookies</a>,
+	     ...</div>
+</li>
+
+         <li><a href="/leagues/MLB-leaders.shtml">MLB Leaders</a>
+	     <div>
+	     <a href="/leagues/MLB/2018-batting-leaders.shtml">2018 MLB Batting</a>,
+	     <a href="/leagues/MLB/2018-pitching-leaders.shtml">2018 MLB Pitching</a>,
+	     <a href="/leaders/WAR_career.shtml">Career WAR Leaders</a>,
+	     <a href="/leaders/HR_season.shtml">Single-Season Home Run Leaders</a>,
+	     <a href="/leaders/SO_p_active.shtml">Active Strikeout Leaders</a>,
+	     <a href="/friv/milestones.cgi">Upcoming Player Milestones</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/boxes/">MLB Scores</a>
+	     <div><a href="/boxes/">Yesterday's MLB Games</a>,
+	     <a href="/boxes/">Scores from any date in MLB history</a>,
+	     <a href="/previews/">MLB Probable Pitchers</a>,
+	     ...</div>
+	 </li>
+	 <li><a href="/leagues/MLB-schedule.shtml">MLB Schedule</a></li>
+
+         <li><a href="/leagues/MLB-standings.shtml">MLB Standings</a>
+	     <div>
+	     <a href="/leagues/AL/2018-standings.shtml">AL Standings</a>,
+	     <a href="/leagues/NL/2018-standings.shtml">NL Standings</a>,
+	     <a href="/boxes/">Standings for any date in history</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/postseason/">MLB Playoffs</a>
+	     <div>
+	     <a href="/postseason/2016_WS.shtml">2016 World Series: Cubs vs Indians</a>,
+	     <a href="/postseason/2015_WS.shtml">2015 World Series: </a>,
+	     <a href="/postseason/WS_batting.shtml">World Series Batting Leaders</a>,
+	     <a href="/postseason/WS_pitching.shtml">World Series Pitching Leaders</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/play-index/">Play Index</a>
+	     <div>Player Finders:
+	     <a href="/play-index/season_finder.cgi">Season Finder</a>,
+	     <a href="/play-index/game_finder.cgi">Game Finder</a>,
+	     <a href="/play-index/streak_finder.cgi">Streak Finder</a>,
+	     <a href="/play-index/event_finder.cgi">Event Finder</a>,
+	     <a href="/play-index/player-comparison.cgi">Player Comparison Finder</a>,
+	     <a href="/play-index/neutralized-stats.cgi">Neutralized Stats</a>,
+	     ...</div>
+	     <div>Team Finders:
+	     <a href="/play-index/team-season-finder.cgi">Season Finder</a>,
+	     <a href="/play-index/split_finder.cgi?class=team">Split Finder</a>,
+	     <a href="/play-index/game_finder.cgi?class=team">Game Finder</a>,
+	     <a href="/play-index/streak_finder.cgi?class=team">Streak Finder</a>,
+	     <a href="/play-index/event_finder.cgi?class=team">Event Finder</a>,
+	     ...</div>
+	     <div>Other Finders:
+	     <a href="/draft/">Draft Finder</a>,
+	     <a href="/play-index/">Game Score &amp; Result Searches</a>,
+	     <a href="/friv/trade-partners.cgi">Team Trade Histories</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/managers/">Managers</a>
+	     <div>Active:
+	     <a href="/managers/francte01.shtml">Terry Francona</a>,
+	     <a href="/managers/hurdlcl01.shtml">Clint Hurdle</a>,
+	     <a href="/managers/hincha.01.shtml">A.J. Hinch</a>,
+	     ...</div>
+	     <div>Retired:
+	     <a href="/managers/mcgrajo01.shtml">John McGraw</a>,
+	     <a href="/managers/coxbo01.shtml">Bobby Cox</a>,
+	     <a href="/managers/weaveea99.shtml">Earl Weaver</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/awards/">MLB Awards</a>
+	     <div>
+	     <a href="/awards/hof.shtml">Baseball Hall of Fame</a>,
+	     <a href="/awards/mvp_cya.shtml">MLB MVP's</a>,
+	     <a href="/awards/mvp_cya.shtml">MLB Cy Young Award</a>,
+	     <a href="/awards/roy_rol.shtml">MLB Rookie of the Year</a>,
+	     <a href="/awards/gold_glove_nl.shtml">Rawlings Gold Gloves</a>,
+	     <a href="/awards/hof_2018.shtml">2018 HOF results</a>,
+	     <a href="/awards/hof_2019.shtml">2019 Hall of Fame ballot</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/allstar/">MLB All-Star Games</a>
+	     <div>
+	     <a href="/allstar/2018-allstar-game.shtml">2018 All-Star Game</a>,
+	     <a href="/allstar/2017-allstar-game.shtml">2017 All-Star Game</a>,
+	     <a href="/allstar/bat-register.shtml">All-Time All-Star Batters</a>,
+	     <a href="/allstar/pitch-register.shtml">All-Time All-Star Pitchers</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/friv/">Frivolities</a> and More
+	     <div>
+	     <a href="/oracle/">Oracle of Baseball</a>,
+	     <a href="/friv/numbers.cgi">Uniform Number Tracker</a>,
+	     <a href="/friv/coffee.shtml">Cups of Coffee</a>,
+	     <a href="/friv/baseball-player-name-pronunciation-guide.shtml">Pronunciation Guide</a>,
+	     <a href="/bio/">Birthplaces</a>,
+	     <a href="/schools/">Players by School Attended</a>,
+	     ....</div>
+	 </li>
+
+         <li><a href="/draft/">MLB Draft</a>
+	     <div>
+	     <a href="/draft/?query_type=year_round&amp;year_ID=2017&amp;draft_round=1&amp;draft_type=junreg&amp;">2017 Draft</a>,
+	     <a href="/draft/?query_type=year_round&amp;year_ID=2016&amp;draft_round=1&amp;draft_type=junreg&amp;">2016 Draft</a>,
+	     <a href="/draft/?query_type=year_round&amp;year_ID=2015&amp;draft_round=1&amp;draft_type=junreg&amp;">2015 Draft</a>,
+	     <a href="/draft/?overall_pick=1&amp;draft_type=junreg&amp;">MLB Number One Picks</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/register/">Minor, Foreign, &amp; Negro Leagues</a>
+	     <div>
+	     <a href="/register/minor-league-stats.shtml">Minor League Stats</a>,
+	     <a href="/register/negro-league-stats.shtml">Negro League Stats</a>,
+	     <a href="/register/npb-stats.shtml">Nippon Pro Baseball Stats</a>,
+	     <a href="/register/cuban-league-stats.shtml">Cuban National Series Stats</a>,
+	     <a href="/register/kbo-stats.shtml">Korean Baseball Stats</a>,
+	     <a href="/register/league.cgi?year=2018">2018 Minor Leagues</a>,
+	     <a href="/register/affiliate.cgi?year=2018">2018 Affiliates</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/bullpen/">Baseball-Reference Bullpen</a>
+	     <div>
+	     <a href="/bullpen/">85,000+ pages of baseball information</a>,
+	     <a href="/bullpen/How_to_contribute">How to Contribute</a>,
+	     ...</div>
+	 </li>
+
+         <li><a href="/about/">About Baseball Reference</a>
+	     <div>
+	     <a href="/about/bat_glossary.shtml">Batting Glossary</a>,
+	     <a href="/about/pitch_glossary.shtml">Pitching Glossary</a>,
+	     <a href="/about/war_explained.shtml">Wins Above Replacement Explainer</a>,
+	     <a href="/data/">WAR data archive</a>,
+	     <a href="/about/coverage.shtml">BR Data Coverage</a>,
+	     ...</div>
+	 </li>
+
+
+</ul>   
+
+	</div><!-- div#site_menu -->
+	<div id="social" class="icon_group noload">
+	
+<div class="section_heading">
+  <span class="section_anchor" id="corbipa01_link" data-label="We're Social...for Statheads" data-no-inpage="1"></span>
+    <h2>We're Social...for Statheads</h2>		
+</div>
+	<a href="tel://800-512-8907" data-tip="Call us on Telephone" data-label="Telephone" class="poptip"><svg class="icon phone"><use xlink:href="#ic-phone"></use></svg></a>
+	<a href="//www.sports-reference.com/blog/" data-tip="The Sports Reference Blog" data-label="Our Blog" class="poptip"><svg class="icon wordpress"><use xlink:href="#ic-wordpress"></use></svg></a>
+	<a href="https://www.sports-reference.com/blog/feed/" data-tip="Our Blog's RSS Feed" data-label="RSS Feed" class="poptip"><svg class="icon rss"><use xlink:href="#ic-rss"></use></svg></a>
+	
+		<a href="https://twitter.com/baseball_ref" data-tip="Baseball-Reference.com at Twitter" data-label="Twitter" class="poptip"><svg class="icon twitter"><use xlink:href="#ic-twitter"></use></svg></a>
+	
+	<a href="https://reddit.com/r/SportsReference" data-tip="Reddit/r/SportsReference" data-label="Reddit/r/SR" class="poptip"><svg class="icon reddit"><use xlink:href="#ic-reddit"></use></svg></a>
+	<a href="https://www.youtube.com/user/sportsreference" data-tip="YouTube/SportsReference" data-label="YouTube" class="poptip"><svg class="icon youtube"><use xlink:href="#ic-youtube"></use></svg></a>
+	<a href="https://www.linkedin.com/company/sports-reference-llc" data-tip="Follow SR on LinkedIn" data-label="LinkedIn" class="poptip"><svg class="icon linkedin"><use xlink:href="#ic-linkedin"></use></svg></a>
+	<a href="https://www.paypal.me/sportsref" data-tip="Send us money via PayPal" data-label="PayPal" class="poptip"><svg class="icon paypal"><use xlink:href="#ic-paypal"></use></svg></a>
+
+<p>Every <a href="https://www.sports-reference.com/blog/sports-reference-social-media/">Sports Reference Social Media Account</a></p>
+<p><strong>Site Last Updated:</strong> Wednesday, April 25,  7:00AM
+</p>
+<p><a href="https://www.sports-reference.com/feedback/" class="button alt">Question, Comment, Feedback, or Correction?</a></p>
+
+<p><a style="background-color:#8e4496; color: #fff;" href="https://stathead.com/" class="button alt">Are you a Stathead, too? Subscribe to our Newsletter</a></p>
+</div><!-- div#social -->
+
+	<div id="tips_tricks">
+   
+<div class="section_heading">
+  <span class="section_anchor" id="tips_link" data-label="FAQs, Tip &amp; Tricks" data-no-inpage="1"></span>
+    <h2>FAQs, Tip &amp; Tricks</h2>		
+</div>
+   <ul>
+           <li><a href="//www.sports-reference.com/blog/category/tips-and-tricks/">Tips and Tricks from our Blog.</a></li>
+           <li><a href="/linker/">Do you have a blog? Join our linker program.</a></li>
+	   <li><a href="//www.sports-reference.com/blog/category/how-to-videos/">Watch our How-To Videos to Become a Stathead</a></li>
+	   <li><a href="/my/?do=ad_free_browsing">Go ad-free to support Sports Reference and get our fastest browsing experience</a></li>
+	   <li><a href="//www.baseball-reference.com/play-index/">Subscribe to the Play Index and get access to more data than you can imagine</a></li>
+<li>Learn about the <a href="//www.baseball-reference.com/about/war_explained.shtml">Wins Above Replacement Formula</a></li>
+
+   </ul>
+</div><!-- div#tips_tricks -->
+
+	<div id="credits">
+        <p>All logos are the trademark &amp; property of their owners and not Sports Reference LLC.  We present them here for purely educational purposes.
+        <a href="https://www.sports-reference.com/blog/2016/06/redesign-team-and-league-logos-courtesy-sportslogos-net/">Our reasoning for presenting offensive logos.</a></p>
+        <p>Logos were compiled by the amazing <a href="http://sportslogos.net/">SportsLogos.net.</a></p>
+
+        
+     
+     <div class="notice">Primary Data Provided By
+	<a href="http://www.gracenote.com/sports/sports-data/" rel="nofollow"><img alt="Gracenote Sports" border=0 width=275 src="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/images/klecko/gracenote-2.png"></a>
+</div>
+
+          <p>Copyright &copy; 2000-2018 <a href="//www.sports-reference.com/">Sports Reference LLC</a>. All rights reserved.</p>
+
+     <p >Much of the play-by-play, game results, and transaction information both shown and used to create certain data sets was obtained free of charge from and is copyrighted by <a rel="nofollow" href="http://www.retrosheet.org/">RetroSheet</a>.</p>
+     <p>Win Expectancy, Run Expectancy, and Leverage Index calculations provided by Tom Tango of <a rel="nofollow" href="http://www.tangotiger.com/index.php">InsideTheBook.com</a>, and co-author of <a class="italic_text" rel="nofollow" href="">The Book: Playing the Percentages in Baseball</a>.</p>
+     <p>Total Zone Rating and initial framework for Wins above Replacement calculations provided by Sean Smith.</p>
+     <p>Full-year historical Major League statistics provided by Pete Palmer and Gary Gillette of <a rel="nofollow" href="http://www.hiddengamesports.com/">Hidden Game Sports</a>.</p>
+     <p><a href="http://www.baseballinfosolutions.com/"><img alt="BaseballInfoSolutions.com logo"  src="https://d2p3bygnnzw9w3.cloudfront.net/req/201804171/images/klecko/bis_logo.png"></a></p>
+     <p>Some defensive statistics Copyright &copy; <a href="http://www.baseballinfosolutions.com/">Baseball Info Solutions</a>, 2010-2018.</p>
+     <p>Some high school data is courtesy David McWater.</p>
+     <p>Many historical player head shots courtesy of David Davis. Many thanks to him. All images are property the copyright holder and are displayed here for informational purposes only.</p>
+</div><!-- div#credits -->
+	<ul id="site_dirs" class="bullets-inline">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li class="current"><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+	<li><a href="https://fbref.com/">Soccer</a></li>
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+        <li><a href="https://stathead.com/">Stathead</a></li>
+        <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+        
+</ul>
+
+	<div id="about"><a href="//www.sports-reference.com/about.html">About</a> &bull; <a href="//www.sports-reference.com/privacy.html">Privacy Statement</a> &bull; <a href="//www.sports-reference.com/termsofuse.html">Conditions &amp; Terms of Service</a> &bull; <a href="//www.sports-reference.com/data_use.html">Use of Data</a></div><!-- div#about -->
+
+</div><!-- div#footer -->
+</div><!-- div#wrap -->
+
+<!-- rails -->
+
+<div class="adblock rails  left"><!-- div#fs_fs_rails_left  -->
+<div align="center" id="div-gpt-ad-160x600-1">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-1');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-1'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_left -->
+</div>
+<div class="adblock rails right"><!-- div#fs_fs_rails_right  -->
+<div align="center" id="div-gpt-ad-160x600-2">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-2');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-2'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_right -->
+</div>
+
+
+<!-- Google Analytics --><script> String.prototype.sr_isMatch = function(s){ return this.match(s)!==null}; function getCookie(name) { var prefix = name + "="; var begin = document.cookie.indexOf("; " + prefix); if (begin == -1) { begin = document.cookie.indexOf(prefix); if (begin != 0) return null; } else { begin += 2; var end = document.cookie.indexOf(";", begin); if (end == -1) { end = document.cookie.length; } } return unescape(document.cookie.substring(begin + prefix.length, end));} var sr_cookie = getCookie('SR_user') || ''; var sr_is_ad_free = sr_cookie.sr_isMatch('Z6SON8tTdJid'); var sr_is_user = sr_cookie !== null && sr_cookie !== ''; var sr_seen_modal = getCookie('modal_ad') !== null; (function(i,s,o,g,r,a,m){ i['GoogleAnalyticsObject']=r; i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date(); a=s.createElement(o),m=s.getElementsByTagName(o)[0]; a.async=1; a.src=g; m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-1890630-1', 'auto'); ga('require', 'linkid', 'linkid.js'); ga('require', 'ecommerce', 'ecommerce.js'); ga('send', 'pageview'); ga('create', 'UA-1890630-19', 'auto', {'name': 'combined_tracker', 'allowLinker': true }); ga('combined_tracker.send', 'pageview'); var sr_device = 'unk'; if (Modernizr.phone) { sr_device = 'phone'; } else if (Modernizr.tablet) { sr_device = 'tablet'; } else if (Modernizr.laptop) { sr_device = 'laptop'; } else if (Modernizr.desktop) { sr_device = 'desktop'; } ga('create', 'UA-1890630-9', 'auto', {'name': 'sr_tracker', 'allowLinker': true }); ga('sr_tracker.require', 'displayfeatures'); ga('sr_tracker.set', 'dimension1','br'); ga('sr_tracker.set', 'dimension2',sr_is_ad_free); ga('sr_tracker.set', 'dimension3',sr_is_user); ga('sr_tracker.set', 'dimension4',sr_seen_modal); ga('sr_tracker.set', 'dimension5',sr_device); ga('sr_tracker.set', 'dimension6',Modernizr.is_modern?'yes':'no'); ga('sr_tracker.set', 'dimension7',Modernizr.viewport_width); /* note that this requires the Assets/AdBlockTest.tt2 to be included above. */ ga('sr_tracker.set', 'dimension8',(typeof sr_test == 'undefined')?'no-test':( sr_test ? 'non-blocking':'blocking')); ga('sr_tracker.send', 'pageview'); /* cribbed from: http://www.axllent.org/docs/view/track-outbound-links-with-analytics-js/ */ function _gaLt(event) { if (!ga.hasOwnProperty("loaded") || ga.loaded != true) { return; } var el = event.srcElement || event.target; /* if a link has been clicked */ if (el && el.href) { var link = el.href; /* Only if it is an external link */ if (link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)) { /* Is target set and not _(self|parent|top)? */ var target = (el.target && !el.target.match(/^_(self|parent|top)/i)) ? el.target : false; /* If target opens a new window then just track */ if (el.target && !el.target.match(/^_(self|parent|top)/i)) { ga("send", "event", "Outgoing Links", link, document.location.pathname + document.location.search); } }; } } window.addEventListener ? window.addEventListener("load", function() { document.body.addEventListener("click", _gaLt, !1)}, !1) : window.attachEvent && window.attachEvent("onload", function() { document.body.attachEvent("onclick", _gaLt) }); </script><!-- End Google Analytics -->
+</body><!-- SR -->
+</html>
+
+
+
+

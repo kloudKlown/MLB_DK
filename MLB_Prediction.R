@@ -1,13 +1,13 @@
-############ Load Library
-install.packages("corrplot")
-install.packages("brnn")
-install.packages("h2o")
-install.packages("randomForest")
-install.packages("Matrix")
-install.packages("xgboost")
-install.packages("stringdist")
-install.packages("varhandle")
-install.packages("mxnet")
+# ############ Load Library
+# install.packages("corrplot")
+# install.packages("brnn")
+# install.packages("h2o")
+# install.packages("randomForest")
+# install.packages("Matrix")
+# install.packages("xgboost")
+# install.packages("stringdist")
+# install.packages("varhandle")
+# install.packages("mxnet")
 
 library(Hmisc)
 library(corrplot)
@@ -18,7 +18,7 @@ library(Matrix)
 library(xgboost)
 library(stringdist)
 library(varhandle)
-
+library(tidyr)
 require(devtools)
 #install_version("DiagrammeR", version = "0.9.0", repos = "http://cran.us.r-project.org")
 require(DiagrammeR)
@@ -26,20 +26,112 @@ require(DiagrammeR)
 library(mxnet)
 ###########################################################
 localH2O <- h2o.init()
+trim <- function (x) gsub("^\\s+|\\s+$", "", x)
 
 Batters2016 = read.csv('Batters_16-17.csv')
+
+for(each in 1:nrow(Batters2016)){
+  if (is.na(as.numeric(as.character(Batters2016$Salary[each])))){
+    p = Batters2016$Salary[each] 
+    Batters2016$Salary[each] = Batters2016$Pos[each]
+    Batters2016$Pos[each] = p
+  }
+}
+
+Batters2016$Salary = as.numeric(levels(Batters2016$Salary))[Batters2016$Salary]
+Batters2016$Pos = levels(Batters2016$Pos)[Batters2016$Pos]
+
 Pitchers2016 = read.csv('Pitchers_16-17.csv')
 
+weightedAVG = function (df){
+  df$C1 = df$PPerreak1 * df$BAvg1;
+  df$C2 = df$PPerreak2 * df$BAvg2;
+  df$C3 = df$PPerreak3 * df$BAvg3;
+  df$C4 = df$PPerreak4 * df$BAvg4;
+  df$C5 = df$PPerreak5 * df$BAvg5;
+  df$C6 = df$PPerreak6 * df$BAvg6;
+  df$C7 = df$PPerreak7 * df$BAvg7;
+  df$C8 = df$PPerreak8 * df$BAvg8;
+  df$C9 = df$PPerreak9 * df$BAvg9;
+  
+  newDF = df[,c("PlayerName", "Date","PLayerID","C1","C2","C3","C4","C5","C6","C7","C8","C9")]
+  
+  return (newDF);
+}
+
+
+BBBatters_2017 = read.csv('BBatters_2017.csv')
+BBBatters_2018 = read.csv('BBatters_2018.csv')
+BBPitchers_2017 = read.csv('BPitchers_2017.csv')
+BBPitchers_2018 = read.csv('BPitchers_2018.csv')
+BBBatters_2017 = weightedAVG(BBBatters_2017)
+BBBatters_2018 = weightedAVG(BBBatters_2018)
+BBPitchers_2017 = weightedAVG(BBPitchers_2017)
+BBPitchers_2018 = weightedAVG(BBPitchers_2018)
+
+
+names(BBBatters_2017)[names(BBBatters_2017) == 'PlayerName'] <- 'Player'
+names(BBBatters_2018)[names(BBBatters_2018) == 'PlayerName'] <- 'Player'
+names(BBPitchers_2017)[names(BBPitchers_2017) == 'PlayerName'] <- 'Player'
+names(BBPitchers_2018)[names(BBPitchers_2018) == 'PlayerName'] <- 'Player'
 
 Batters2018 = read.csv('Batters_17-18.csv')
 Pitchers2018 = read.csv('Pitchers_17-18.csv')
 
 names(Batters2018)[names(Batters2018) %nin% names(Batters2016)]
 
-Batters2016 = rbind(Batters2018, Batters2016)
-Pitchers2016 = rbind(Pitchers2016, Pitchers2018)
+Batters2016 = separate(data = Batters2016, col = Player, into = c("Player", "Hand"), sep = "\\(")
+Batters2018 = separate(data = Batters2018, col = Player, into = c("Player", "Hand"), sep = "\\(")
+Pitchers2016 = separate(data = Pitchers2016, col = Player, into = c("Player", "Hand"), sep = "\\(")
+Pitchers2018 = separate(data = Pitchers2018, col = Player, into = c("Player", "Hand"), sep = "\\(")
+
+Batters2016$Hand =(gsub(')', '', Batters2016$Hand ))
+Batters2018$Hand =(gsub(')', '', Batters2018$Hand ))
+Pitchers2016$Hand =(gsub(')', '', Pitchers2016$Hand ))
+Pitchers2018$Hand =(gsub(')', '', Pitchers2018$Hand ))
+
+Batters2016$Player = trim(Batters2016$Player)
+Batters2018$Player = trim(Batters2018$Player)
+Pitchers2016$Player = trim(Pitchers2016$Player)
+Pitchers2018$Player = trim(Pitchers2018$Player)
+
+Batters2016 =  Batters2016[ order(Batters2016$Date, Batters2016$Player), ]
+# Batters2016$Player[Batters2016$Player == "Albert Almora"] = "Albert Almora Jr."
+# Batters2016$Player[Batters2016$Player == "Nick Castellanos"] = "Nicholas Castellanos"
+
+Batters2016_merged = merge(Batters2016, BBBatters_2017, by.x = "Player", by.y = "Player", all.x=TRUE)
+Batters2016_merged =  Batters2016_merged[ order(Batters2016_merged$Date.x, Batters2016_merged$Player), ]
+# for(each in 1:nrow(Batters2016_merged)){
+#   if
+# }
+
+Batters2018_merged = merge(Batters2018, BBBatters_2018,by.x = "Player", by.y = "Player", all.x=TRUE)
+Pitchers2016_merged = merge(Pitchers2016, BBPitchers_2017, by.x = "Player", by.y = "Player", all.x=TRUE)
+# TODO: Remove this comment
+Pitchers2018_merged = merge(Pitchers2018, BBPitchers_2018, by.x = "Player", by.y = "Player", all.x=TRUE)
+
+
+
+names(Batters2018_merged)[names(Batters2018_merged) %nin% names(Batters2016_merged)]
+
+
+Batters2016 = rbind(Batters2016_merged, Batters2018_merged)
+# TODO: Remove this comment
+Pitchers2016 = rbind(Pitchers2016_merged, Pitchers2018_merged)
+# Pitchers2016 = Pitchers2016_merged
+Batters2016 = Batters2016[!is.na(Batters2016$Date.x), ]
+Pitchers2016 = Pitchers2016[!is.na(Pitchers2016$Date.x), ]
+names(Pitchers2016)[names(Pitchers2016) == 'Date.x'] <- 'Date'
+names(Batters2016)[names(Batters2016) == 'Date.x'] <- 'Date'
+#### Merge directional stats for each players
+
+
+
+
+
 
 # Data Prep
+
 Batters2016[Batters2016 == 'nbsp;'] = 0
 Pitchers2016[Pitchers2016 == 'nbsp;'] = 0
 Batters2016[Batters2016 == "-"] = 0
@@ -147,7 +239,8 @@ Pitchers2016_Sub = Pitchers2016[,c("Date","Rating","Player","Salary","Team",
                                    "Spd_delta","RecBBL","Air","CntYear","DistYear","EVYear",
                                    "SpeedYear","SYear",
                                    "PCntYear","AirYear","PPG","Change","plusMinusYear","Count",
-                                   "PPGYear","ChangeYear","CountYear")]
+                                   "PPGYear","ChangeYear","CountYear",
+                                   "C1","C2","C3","C4","C5","C6","C7","C8","C9")]
 
 
 # Pitchers2016_Sub = Pitchers2016_Sub[1:50,]
@@ -159,12 +252,12 @@ Batters2016_Sub$Opp = substr(Batters2016_Sub$Opp, 0, 3)
 # remove white space
 Batters2016_Sub$Opp  = gsub('\\s+', '', Batters2016_Sub$Opp)
 
-Batters2016_Sub_Combined = merge(Batters2016_Sub, Pitchers2016_Sub, by = c("Date","Opp"))
+Batters2016_Sub_Combined = merge(Batters2016_Sub, Pitchers2016_Sub, by = c("Date","Opp"), all.x = TRUE)
 
 
 ## Perdiction
-DateCheck = "2018-04-03"
-Batters2016Cleaned = Batters2016_Sub_Combined[,c("Date","Rating.x","Player.x","Salary.x",
+DateCheck = "2018-4-17"
+Batters2016Cleaned = Batters2016_Sub_Combined[,c("Date","Rating.x","Player.x","Salary.x","PLayerID","Player.y",
                                     "Pos","Order","Team","Opp",
                               "ProjplusMinus","Pts_Sal","LowProjOwn",
                               "Imp.Pts","Act.Pts","wOBA.x","wOBADiff","ISO",
@@ -177,8 +270,12 @@ Batters2016Cleaned = Batters2016_Sub_Combined[,c("Date","Rating.x","Player.x","S
                               "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
                               "PPG.x","Change.x","plusMinus",
                               "Count.x","PPGYear.x","ChangeYear.x",
-                              "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")]
+                              "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y",
+                              "C1.x","C2.x","C3.x","C4.x","C5.x","C6.x","C7.x","C8.x","C9.x",
+                              "C1.y","C2.y","C3.y","C4.y","C5.y","C6.y","C7.y","C8.y","C9.y")]
 Batters2016Cleaned = unique(Batters2016Cleaned)
+names(Batters2016Cleaned)[names(Batters2016Cleaned) == 'Player.x'] <- 'Player'
+
 Batters2016Cleaned_Test = subset(Batters2016Cleaned, (as.Date(Batters2016Cleaned$Date) == as.Date(DateCheck)))
 Batters2016Cleaned_Train = subset(Batters2016Cleaned, as.Date(Batters2016Cleaned$Date) < as.Date(DateCheck))
 
@@ -189,15 +286,22 @@ playerNames = unique(Batters2016Cleaned_Test$Player)
 ResultsBatters = data.frame( RFPred = numeric(), Xgb = numeric(), Name = factor(), Pos = factor() ,
                       Salary = numeric(), Actual = numeric() , HTeam = factor(), OTeam = factor(),
                       Pts = numeric(), DNNPer = numeric(), DNN = numeric(),xgbPLUSMINUS = numeric(),
-                      RFPLUSMINUS = numeric())
+                      RFPLUSMINUS = numeric(),
+                      C1B = numeric(),C2B = numeric(),C3B = numeric(),C4B = numeric(),
+                      C5B = numeric(),C6B = numeric(),C7B = numeric(),C8B = numeric(),C9B = numeric(),
+                      C1P = numeric(),C2P = numeric(),C3P = numeric(),C4P = numeric(),
+                      C5P = numeric(),C6P = numeric(),C7P = numeric(),C8P = numeric(),C9P = numeric()
+                      )
 
 ## Prediction
 for (each in 1:length(playerNames)){
   Batters2016Cleaned_Test = subset(Batters2016Cleaned, Batters2016Cleaned$Date == DateCheck 
                              & Batters2016Cleaned$Player == as.character(playerNames[each]) )
   
-  Batters2016Cleaned_Train = subset(Batters2016Cleaned, Batters2016Cleaned$Date != DateCheck
+  Batters2016Cleaned_Train = subset(Batters2016Cleaned, Batters2016Cleaned$Date < DateCheck
                               & Batters2016Cleaned$Player == as.character(playerNames[each]) )
+  
+  
   print (playerNames[each])
   print (each)
   ### This ensures atleast 1 row of data exists for prediction
@@ -209,7 +313,8 @@ for (each in 1:length(playerNames)){
   if (nrow(Batters2016Cleaned_Train) < 20){
     Batters2016Cleaned_Train = subset(Batters2016Cleaned, Batters2016Cleaned$Date != DateCheck
                                 & Batters2016Cleaned$Team
-                                == as.character( unique ( subset(Batters2016Cleaned, Batters2016Cleaned$Player == as.character(playerNames[each]) )$Team ) )
+                                == as.character( unique ( subset(Batters2016Cleaned, 
+                                                                 Batters2016Cleaned$Player == as.character(playerNames[each]) )$Team ) )
                                 
     )
     
@@ -224,16 +329,17 @@ for (each in 1:length(playerNames)){
   }
   
   ######### Construct Models
+  Batters2016Cleaned_Train[is.na(Batters2016Cleaned_Train)] = 0
+  Batters2016Cleaned_Test[is.na(Batters2016Cleaned_Test)] = 0
   indices = sample(1:nrow(Batters2016Cleaned_Train), 7, replace = TRUE)
   Batters2016Cleaned_Train_PlusMinusTrain = Batters2016Cleaned_Train[-indices, ]
   Batters2016Cleaned_Train_PlusMinusTest = Batters2016Cleaned_Train[indices, ]
-  
+  # "Rating.x",
+  # "ProjplusMinus","Pts_Sal","LowProjOwn",
+  # "Imp.Pts",
   
   #########RF
-  rf = randomForest( Batters2016Cleaned_Train[,c("Salary.x",
-                                                 "Pos","Order",
-                                                 "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                 "Imp.Pts","wOBA.x","wOBADiff","ISO",
+  rf = randomForest( Batters2016Cleaned_Train[,c("wOBA.x","wOBADiff","ISO",
                                                  "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
                                                  "Pro.x","Bargain.x","ParkF.x","Runs.x",
                                                  "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
@@ -243,14 +349,13 @@ for (each in 1:length(playerNames)){
                                                  "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
                                                  "PPG.x","Change.x","plusMinus",
                                                  "Count.x","PPGYear.x","ChangeYear.x",
-                                                 "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")], 
+                                                 "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y",
+                                                 "C1.x","C2.x","C3.x","C4.x","C5.x","C6.x","C7.x","C8.x","C9.x",
+                                                 "C1.y","C2.y","C3.y","C4.y","C5.y","C6.y","C7.y","C8.y","C9.y")], 
                      y = Batters2016Cleaned_Train[,c("Act.Pts")], ntree=300
                      ,type='regression')
   
-  rf_PlusMinus =  randomForest( Batters2016Cleaned_Train_PlusMinusTrain[,c("Salary.x",
-                                                                           "Pos","Order",
-                                                                           "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                                           "Imp.Pts","wOBA.x","wOBADiff","ISO",
+  rf_PlusMinus =  randomForest( Batters2016Cleaned_Train_PlusMinusTrain[,c("wOBA.x","wOBADiff","ISO",
                                                                            "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
                                                                            "Pro.x","Bargain.x","ParkF.x","Runs.x",
                                                                            "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
@@ -260,7 +365,9 @@ for (each in 1:length(playerNames)){
                                                                            "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
                                                                            "PPG.x","Change.x","plusMinus",
                                                                            "Count.x","PPGYear.x","ChangeYear.x",
-                                                                           "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")], 
+                                                                           "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y",
+                                                                           "C1.x","C2.x","C3.x","C4.x","C5.x","C6.x","C7.x","C8.x","C9.x",
+                                                                           "C1.y","C2.y","C3.y","C4.y","C5.y","C6.y","C7.y","C8.y","C9.y")], 
                                 y = Batters2016Cleaned_Train_PlusMinusTrain[,c("Act.Pts")], ntree=300
                                 ,type='regression')
   
@@ -335,10 +442,7 @@ for (each in 1:length(playerNames)){
   # 
   #################################Predictions
   
-  RFPred = predict( rf,  Batters2016Cleaned_Test[,c("Salary.x",
-                                                    "Pos","Order",
-                                                    "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                    "Imp.Pts","wOBA.x","wOBADiff","ISO",
+  RFPred = predict( rf,  Batters2016Cleaned_Test[,c("wOBA.x","wOBADiff","ISO",
                                                     "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
                                                     "Pro.x","Bargain.x","ParkF.x","Runs.x",
                                                     "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
@@ -348,15 +452,14 @@ for (each in 1:length(playerNames)){
                                                     "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
                                                     "PPG.x","Change.x","plusMinus",
                                                     "Count.x","PPGYear.x","ChangeYear.x",
-                                                    "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")] 
+                                                    "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y",
+                                                    "C1.x","C2.x","C3.x","C4.x","C5.x","C6.x","C7.x","C8.x","C9.x",
+                                                    "C1.y","C2.y","C3.y","C4.y","C5.y","C6.y","C7.y","C8.y","C9.y")] 
                     ,type = c("response") )
   
   
   RFPred_PlusMinus = predict( rf_PlusMinus,  
-                              Batters2016Cleaned_Train_PlusMinusTest[,c("Salary.x",
-                                                                        "Pos","Order",
-                                                                        "ProjplusMinus","Pts_Sal","LowProjOwn",
-                                                                        "Imp.Pts","wOBA.x","wOBADiff","ISO",
+                              Batters2016Cleaned_Train_PlusMinusTest[,c("wOBA.x","wOBADiff","ISO",
                                                                         "ISODiff","SO_AB.x","HR_AB","SB_G","OppBP",
                                                                         "Pro.x","Bargain.x","ParkF.x","Runs.x",
                                                                         "OppRuns.x","ST","ML.x","O_U.x","MLPer","Rating_M",
@@ -366,7 +469,10 @@ for (each in 1:length(playerNames)){
                                                                         "DistPer","EVM","AirPer","OppwOBA","OppISO","OppwOBAMonth","OppISOMonth",
                                                                         "PPG.x","Change.x","plusMinus",
                                                                         "Count.x","PPGYear.x","ChangeYear.x",
-                                                                        "CountYear.x", "Rating.y","WHIP","Salary.y","SO_9","IP","SO_AB.y")] 
+                                                                        "CountYear.x", "Rating.y","WHIP","Salary.y",
+                                                                        "SO_9","IP","SO_AB.y",
+                                                                        "C1.x","C2.x","C3.x","C4.x","C5.x","C6.x","C7.x","C8.x","C9.x",
+                                                                        "C1.y","C2.y","C3.y","C4.y","C5.y","C6.y","C7.y","C8.y","C9.y")] 
                               ,type = c("response") )
   plusMinus = Batters2016Cleaned_Train_PlusMinusTest$`Act.Pts` - RFPred_PlusMinus
   RFPLUSMINUS_M = ceil(min(plusMinus))
@@ -415,7 +521,7 @@ for (each in 1:length(playerNames)){
   
   
   Prediction2 =  as.data.frame(RFPred)
-  Prediction2["RFPer"] = as.data.frame(  Prediction2["RFPred"]*100/(Batters2016Cleaned_Test$`Salary.x`) )
+  Prediction2["RFPer"] = 0
   Prediction2["RF_M"] =  as.data.frame(RFPLUSMINUS_M)
   Prediction2["RF_P"] =  as.data.frame(RFPLUSMINUS_P)
   Prediction2["Actual"] =  as.data.frame(Batters2016Cleaned_Test$`Act.Pts`)
@@ -425,6 +531,26 @@ for (each in 1:length(playerNames)){
   Prediction2["Opp"] = as.data.frame(Batters2016Cleaned_Test$Opp)
   Prediction2["Pts"] =  as.data.frame(Batters2016Cleaned_Test$Pts)
   Prediction2["Pos"] =  as.data.frame(Batters2016Cleaned_Test$Pos)
+  Prediction2$C1B = Batters2016Cleaned_Test$C1.x
+  Prediction2$C2B = Batters2016Cleaned_Test$C2.x
+  Prediction2$C3B = Batters2016Cleaned_Test$C3.x
+  Prediction2$C4B = Batters2016Cleaned_Test$C4.x
+  Prediction2$C5B = Batters2016Cleaned_Test$C5.x
+  Prediction2$C6B = Batters2016Cleaned_Test$C6.x
+  Prediction2$C7B = Batters2016Cleaned_Test$C7.x
+  Prediction2$C8B = Batters2016Cleaned_Test$C8.x
+  Prediction2$C9B = Batters2016Cleaned_Test$C9.x
+  
+  Prediction2$C1P = Batters2016Cleaned_Test$C1.y
+  Prediction2$C2P = Batters2016Cleaned_Test$C2.y
+  Prediction2$C3P = Batters2016Cleaned_Test$C3.y
+  Prediction2$C4P = Batters2016Cleaned_Test$C4.y
+  Prediction2$C5P = Batters2016Cleaned_Test$C5.y
+  Prediction2$C6P = Batters2016Cleaned_Test$C6.y
+  Prediction2$C7P = Batters2016Cleaned_Test$C7.y
+  Prediction2$C8P = Batters2016Cleaned_Test$C8.y
+  Prediction2$C9P = Batters2016Cleaned_Test$C9.y
+  
   Prediction2["Xgb"] =  0 #as.data.frame(predict(xgbO, testSparseMatrix))
   Prediction2["XgbPer"] = 0 #as.data.frame(  Prediction2["Xgb"]*100/(Batters2016Cleaned_Test$`Salary`) )
   Prediction2["xgb_M"] =  0 #as.data.frame(xgbPLUSMINUS_M)
@@ -446,7 +572,7 @@ for (each in 1:length(playerNames)){
 
 
 
-write.csv(ResultsBatters, file = "MLB_04_3_2018.csv")
+write.csv(ResultsBatters, file = "MLB_4_17_2018.csv")
 
 #### Pitchers
 Pitchers2016Cleaned = Pitchers2016[,c("Date","Rating","Player","Salary",
@@ -478,11 +604,11 @@ ResultsPitchers = data.frame( RFPred = numeric(), Xgb = numeric(), Name = factor
 
 
 ## Prediction
-for (each in 19:length(playerNames)){
+for (each in 16:length(playerNames)){
   Pitchers2016Cleaned_Test = subset(Pitchers2016Cleaned, Pitchers2016Cleaned$Date == DateCheck 
                                     & Pitchers2016Cleaned$Player == as.character(playerNames[each]) )
   
-  Pitchers2016Cleaned_Train = subset(Pitchers2016Cleaned, Pitchers2016Cleaned$Date != DateCheck
+  Pitchers2016Cleaned_Train = subset(Pitchers2016Cleaned, as.Date(Pitchers2016Cleaned$Date) != as.Date(DateCheck)
                                      & Pitchers2016Cleaned$Player == as.character(playerNames[each]) )
   print (playerNames[each])
   print (each)
@@ -499,9 +625,9 @@ for (each in 19:length(playerNames)){
   
   
   #########RF
-  rf = randomForest( Pitchers2016Cleaned_Train[,c("Rating","Salary",
+  rf = randomForest( Pitchers2016Cleaned_Train[,c(
                                                   "Proj_plusMinus",
-                                                  "Pts_Sal","LowProjOwn","HighProjOwn","ActPts","WHIP","HR_9",
+                                                  "Pts_Sal","LowProjOwn","HighProjOwn","WHIP","HR_9",
                                                   "SO_9","IP","QualS_S","SO_AB","wOBA","Pro",
                                                   "Bargain","KPred","ParkF","Runs","OppRuns","delta",
                                                   "ML","O_U","MLYear","RatingYear","Temp","WindSpd",
@@ -514,9 +640,9 @@ for (each in 19:length(playerNames)){
                      y = Pitchers2016Cleaned_Train[,c("ActPts")], ntree=300
                      ,type='regression')
   
-  rf_PlusMinus =  randomForest( Pitchers2016Cleaned_Train_PlusMinusTrain[,c("Rating","Salary",
+  rf_PlusMinus =  randomForest( Pitchers2016Cleaned_Train_PlusMinusTrain[,c(
                                                                             "Proj_plusMinus",
-                                                                            "Pts_Sal","LowProjOwn","HighProjOwn","ActPts","WHIP","HR_9",
+                                                                            "Pts_Sal","LowProjOwn","HighProjOwn","WHIP","HR_9",
                                                                             "SO_9","IP","QualS_S","SO_AB","wOBA","Pro",
                                                                             "Bargain","KPred","ParkF","Runs","OppRuns","delta",
                                                                             "ML","O_U","MLYear","RatingYear","Temp","WindSpd",
@@ -600,9 +726,9 @@ for (each in 19:length(playerNames)){
   # 
   #################################Predictions
   
-  RFPred = predict( rf,  Pitchers2016Cleaned_Test[,c("Rating","Salary",
+  RFPred = predict( rf,  Pitchers2016Cleaned_Test[,c(
                                                      "Proj_plusMinus",
-                                                     "Pts_Sal","LowProjOwn","HighProjOwn","ActPts","WHIP","HR_9",
+                                                     "Pts_Sal","LowProjOwn","HighProjOwn","WHIP","HR_9",
                                                      "SO_9","IP","QualS_S","SO_AB","wOBA","Pro",
                                                      "Bargain","KPred","ParkF","Runs","OppRuns","delta",
                                                      "ML","O_U","MLYear","RatingYear","Temp","WindSpd",
@@ -616,9 +742,9 @@ for (each in 19:length(playerNames)){
   
   
   RFPred_PlusMinus = predict( rf_PlusMinus, 
-                              Pitchers2016Cleaned_Train_PlusMinusTest[,c("Rating","Salary",
+                              Pitchers2016Cleaned_Train_PlusMinusTest[,c("Rating",
                                                                          "Proj_plusMinus",
-                                                                         "Pts_Sal","LowProjOwn","HighProjOwn","ActPts","WHIP","HR_9",
+                                                                         "Pts_Sal","LowProjOwn","HighProjOwn","WHIP","HR_9",
                                                                          "SO_9","IP","QualS_S","SO_AB","wOBA","Pro",
                                                                          "Bargain","KPred","ParkF","Runs","OppRuns","delta",
                                                                          "ML","O_U","MLYear","RatingYear","Temp","WindSpd",

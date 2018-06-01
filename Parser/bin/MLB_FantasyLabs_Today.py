@@ -22,7 +22,7 @@ def TextCleanup(text):
 	return text
 
 for each in range(1,2):
-	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,4,5)  - timedelta(days = each*1)).strftime("%m%d%Y"))
+	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((datetime.now()).strftime("%m%d%Y"))
 	print casp
 	os.system(casp)
 

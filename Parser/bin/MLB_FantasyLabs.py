@@ -18,8 +18,8 @@ def TextCleanup(text):
 	text = text.replace('$', '')
 	return text
 
-for each in range(1,7):
-	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((date(2018,4,3)  - timedelta(days = each*1)).strftime("%m%d%Y"))
+for each in range(1,250):
+	casp  = 'C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casperjs.exe C:\\Users\\suhas\\Documents\\Sports\\MLB\\Parser\\bin\\casp_MLB.js --date=' + str((datetime(2018,4,12) - timedelta(days = each*1)).strftime("%m%d%Y"))
 	print casp
 	os.system(casp)
 
@@ -36,7 +36,7 @@ for each in range(1,7):
 	AllDivs = soup.findAll('div',{'class': re.compile(r'.*ag-row-level.*') })
 	print totalRows, day	
 	text= "insert into `mlb`.`batters` Values('" + day + ','
-	for i in range(0, (totalRows/2)-1):
+	for i in range(0, (totalRows/2)):
 		for elements in AllDivs[i].findAll('div'):
 			#print elements.text,"\n"
 			if len(elements.text)> 0:				
@@ -106,13 +106,13 @@ for each in range(1,7):
 	text= "insert into `mlb`.`pitchers` Values('" + day + ','
 
 	for i in range(0, (totalRows/2)):
+		
 		for elements in AllDivs[i].findAll('div'):
 			#print elements.text,"\n"
 			if len(elements.text )> 0:				
 				text = text + elements.text + ","
 			else:
-				text = text + ' ' + ","
-		
+				text = text + ' ' + ","		
 		index = 0		
 		actualIndex = 0
 		for elements in AllDivs[i+(totalRows/2)].findAll('div'):
